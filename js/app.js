@@ -22,6 +22,9 @@ export function el(tag, attrs = {}, ...children) {
   return node;
 }
 
+/** Drop null/false children so append/replaceChildren never print "null". */
+export const kids = (...c) => c.flat(Infinity).filter((x) => x != null && x !== false);
+
 export async function loadJSON(path) {
   const res = await fetch(path, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Could not load ${path} (${res.status})`);

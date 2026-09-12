@@ -37,10 +37,12 @@ js/flashcards.js  the flashcard session
 js/resources.js   resource cards for class materials
 js/pages/*.js     one script per page
 
-data/units.json   units, class materials, due dates
+data/units.json   units, class materials, readings, due dates
 data/decks.json   list of vocabulary decks
-data/vocab/*.json one file per deck
-files/slides, files/assignments   PDFs
+data/vocab/*.json one file per deck (only words from class materials)
+data/grammar.json list of grammar topics
+data/grammar/*.json  one file per topic: explanation, examples, practice items
+files/slides, files/assignments   PDFs (none yet; class slides are embedded from Google Slides)
 ```
 
 ## Adding content

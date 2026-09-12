@@ -1,0 +1,32 @@
+{
+  "id": "objeto-directo",
+  "title": "Regla 5: pronombres de objeto directo (lo, la, los, las)",
+  "source": "Slide 20 and the songs No lo tengo / Guapo",
+  "summary": "lo / la / los / las stand in for the thing that receives the action. They go before the verb.",
+  "instruction": "Fill in the direct object pronoun",
+  "explanation": [
+    "Rule 5: Direct object pronouns are pronouns that stand in for the direct object of a sentence. The direct object receives the action / attention of the verb.",
+    "¿Tienes el diccionario? = Do you have the dictionary? (the dictionary is the direct object). No, no lo tengo. = No, I do not have it. Here lo takes the place of diccionario. It's a D.O. pronoun.",
+    "Direct object pronouns must agree in gender and number with the nouns they replace: lo = it (masculine), la = it (feminine), los = them (masculine), las = them (feminine). Notice the pronoun goes before the verb: no lo tengo.",
+    "This is the whole point of the Señor Wooly song No lo tengo, and it shows up in Guapo too: ¿Personalidad? Él no la tiene."
+  ],
+  "examples": [
+    { "es": "¿Tienes el diccionario? No, no lo tengo.", "en": "Do you have the dictionary? No, I do not have it." },
+    { "es": "¿Tiene José sus computadoras? Sí, las tiene.", "en": "Does José have his computers? Yes, he has them." },
+    { "es": "¿Personalidad? Él no la tiene.", "en": "Personality? He doesn't have it." }
+  ],
+  "items": [
+    { "prompt": "¿Tienes tu calculadora? No, no ___ tengo.", "answer": "la", "hint": "calculadora is feminine, singular" },
+    { "prompt": "¿Tienes tu diccionario? No, no ___ tengo.", "answer": "lo", "hint": "diccionario is masculine, singular" },
+    { "prompt": "¿Tiene José sus computadoras? Sí, ___ tiene.", "answer": "las", "hint": "computadoras is feminine, plural" },
+    { "prompt": "¿Tiene María sus cuadernos? Sí, ___ tiene.", "answer": "los", "hint": "cuadernos is masculine, plural" },
+    { "prompt": "¿Personalidad? Él no ___ tiene.", "answer": "la", "hint": "personalidad is feminine" },
+    { "prompt": "¿Tienes tu libro? No, no ___ tengo.", "answer": "lo" },
+    { "prompt": "¿Tienes tus camisas? Sí, ___ tengo.", "answer": "las" },
+    { "prompt": "¿Tiene ella su abrigo? Sí, ___ tiene.", "answer": "lo" },
+    { "prompt": "¿Tienes la calculadora? Sí, ___ tengo.", "answer": "la" },
+    { "prompt": "¿Tiene José los libros? No, no ___ tiene.", "answer": "los" },
+    { "prompt": "Do you have the dictionary? (write the whole question)", "answer": "¿Tienes el diccionario?", "instruction": "Write it in Spanish" },
+    { "prompt": "No, I do not have it. (write the whole sentence)", "answer": "No, no lo tengo", "instruction": "Write it in Spanish" }
+  ]
+}

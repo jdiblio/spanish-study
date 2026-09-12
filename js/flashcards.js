@@ -1,9 +1,10 @@
 // Vocabulary page: deck picker, flashcard session (review or practice), summary.
-import { $, el, shuffle, initPage, toast, humanInterval, plural } from './app.js';
+import { $, el, kids, shuffle, initPage, toast, humanInterval, plural } from './app.js';
 import { getState, save, recordReview, newIntroducedToday } from './storage.js';
 import { Rating, schedule, previewIntervals } from './srs.js';
 import { speak, canSpeak } from './audio.js';
 import { loadDecks, DIR, cardsForDeck, deckStats, buildReviewQueue, checkAnswer } from './decks.js';
+import { accentKeys } from './ui.js';
 
 initPage('vocab');
 const app = $('#app');
@@ -163,14 +164,14 @@ function renderCard() {
   );
 
   if (card.dir === DIR.REC) {
-    body.append(
+    body.append(...kids(
       el('span', { class: 'lang-tag' }, 'Spanish · what does it mean?'),
-      el('div', { class: 'row' }, el('div', { class: 'word', lang: 'es' }, item.es), speakBtn),
+      el('div', { class: 'row' }, el('div', { class: 'word', lang: 'es' }, item.display || item.es), speakBtn),
       item.note ? el('div', { class: 'note' }, item.note) : null,
       el('div', { class: 'actions' },
         el('button', { class: 'btn btn-primary btn-lg', onClick: reveal }, 'Show answer')),
       el('div', { class: 'kbd-hint' }, el('kbd', {}, 'Space'), ' to flip')
-    );
+    ));
     if (st.settings.autoAudio) setTimeout(() => speak(item.es, st.settings.voice), 150);
   } else {
     const input = el('input', { class: 'answer-input', type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', lang: 'es', placeholder: 'Type it in Spanish' });
@@ -181,12 +182,12 @@ function renderCard() {
         el('button', { class: 'btn btn-primary', type: 'submit' }, 'Check'),
         el('button', { class: 'btn btn-ghost', type: 'button', onClick: () => check('') }, "I don't know"))
     );
-    body.append(
+    body.append(...kids(
       el('span', { class: 'lang-tag' }, 'English · say it in Spanish'),
       el('div', { class: 'word small-word' }, item.en),
       item.note ? el('div', { class: 'note' }, item.note) : null,
       form
-    );
+    ));
     setTimeout(() => input.focus(), 0);
   }
 
@@ -197,37 +198,22 @@ function renderCard() {
   });
 }
 
-function accentKeys(input) {
-  const chars = ['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü', '¿', '¡'];
-  return el('div', { class: 'accent-keys' },
-    chars.map((ch) => el('button', { type: 'button', tabindex: '-1', onClick: () => insertAtCursor(input, ch) }, ch))
-  );
-}
-
-function insertAtCursor(input, ch) {
-  const start = input.selectionStart ?? input.value.length;
-  const end = input.selectionEnd ?? start;
-  input.value = input.value.slice(0, start) + ch + input.value.slice(end);
-  input.setSelectionRange(start + 1, start + 1);
-  input.focus();
-}
-
 // Recognition card: flip, then self-grade.
 function reveal() {
   const { current: card } = session;
   const item = card.item;
   session.phase = 'back';
   const body = $('.flashcard');
-  body.replaceChildren(
+  body.replaceChildren(...kids(
     el('span', { class: 'lang-tag' }, 'Spanish'),
-    el('div', { class: 'word', lang: 'es' }, item.es),
+    el('div', { class: 'word', lang: 'es' }, item.display || item.es),
     el('div', { class: 'divider' }),
     el('span', { class: 'lang-tag' }, 'English'),
     el('div', { class: 'word small-word' }, item.en),
     item.example ? el('div', { class: 'example', lang: 'es' }, item.example) : null,
     el('p', { class: 'muted small mt' }, 'Did you know it?'),
     ratingRow(Rating.GOOD)
-  );
+  ));
   bindRatingKeys();
 }
 
@@ -245,32 +231,32 @@ function check(value) {
   if (verdict === 'correct') {
     result = el('div', { class: 'result correct' },
       el('div', { class: 'headline' }, '✓ Correct'),
-      el('div', { class: 'answer', lang: 'es' }, item.es));
+      el('div', { class: 'answer', lang: 'es' }, item.display || item.es));
     defaultRating = Rating.GOOD;
     row = ratingRow(defaultRating, [Rating.HARD, Rating.GOOD, Rating.EASY]);
   } else if (verdict === 'almost') {
     result = el('div', { class: 'result almost' },
       el('div', { class: 'headline' }, 'Almost. Check the accents:'),
-      el('div', { class: 'answer', lang: 'es' }, item.es),
+      el('div', { class: 'answer', lang: 'es' }, item.display || item.es),
       typed ? el('div', { class: 'muted small' }, `You wrote: ${typed}`) : null);
     defaultRating = Rating.HARD;
     row = ratingRow(defaultRating, [Rating.AGAIN, Rating.HARD, Rating.GOOD]);
   } else {
     result = el('div', { class: 'result wrong' },
       el('div', { class: 'headline' }, typed ? 'Not quite. The answer is:' : 'The answer is:'),
-      el('div', { class: 'answer', lang: 'es' }, item.es),
+      el('div', { class: 'answer', lang: 'es' }, item.display || item.es),
       typed ? el('div', { class: 'muted small' }, `You wrote: ${typed}`) : null);
     defaultRating = Rating.AGAIN;
     row = ratingRow(defaultRating, [Rating.AGAIN, Rating.GOOD]);
   }
 
-  body.replaceChildren(
+  body.replaceChildren(...kids(
     el('span', { class: 'lang-tag' }, 'English'),
     el('div', { class: 'word small-word' }, item.en),
     result,
     item.example ? el('div', { class: 'example', lang: 'es' }, item.example) : null,
     row
-  );
+  ));
   if (st.settings.autoAudio) speak(item.es, st.settings.voice);
   bindRatingKeys();
 }

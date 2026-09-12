@@ -92,7 +92,12 @@ Spanish Study Website/
   `python -m http.server 8000` and open http://localhost:8000.
 - **Phase 2 done (2026-09-12).** Live at https://jdiblio.github.io/spanish-study/
   (repo: https://github.com/jdiblio/spanish-study). Every push to `main` redeploys in about a minute.
-- Next: Phase 3, real class content.
+- **Phase 3 started (2026-09-12).** Real content loaded from class slides 1–72, the Todo sobre mí
+  worksheet, and the Guapo worksheet: 13 vocab decks (523 words), 2 readings, 6 grammar topics
+  with typed practice (the Gramática page is live). Placeholder deck removed.
+- **Rule:** study content comes only from class materials. Nothing invented.
+- Class is at slide 72. Do not use later slides until Jeffrey says so.
+- Next: verbs (when the class gets there), mixed review, more songs as they are assigned.
 
 ## Phases
 

@@ -8,6 +8,7 @@ function defaults() {
     version: 1,
     cards: {},      // cardId -> scheduler state (see srs.js)
     days: {},       // 'YYYY-MM-DD' -> { reviews, correct, new }
+    grammar: {},    // topicId -> { best, attempts, last }
     settings: { newPerDay: 10, autoAudio: true, voice: '' },
   };
 }
@@ -21,6 +22,7 @@ function merge(parsed) {
     ...parsed,
     cards: parsed.cards || {},
     days: parsed.days || {},
+    grammar: parsed.grammar || {},
     settings: { ...d.settings, ...(parsed.settings || {}) },
   };
 }

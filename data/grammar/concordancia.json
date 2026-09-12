@@ -1,0 +1,40 @@
+{
+  "id": "concordancia",
+  "title": "Regla 3: concordancia (sustantivos y adjetivos)",
+  "source": "Slides 18 and 21, plus the Todo sobre mí worksheet",
+  "summary": "Articles, nouns, and adjectives agree in gender and number. The adjective goes after the noun.",
+  "instruction": "Write it in Spanish",
+  "explanation": [
+    "Rule 3: Articles, nouns, and adjectives must agree in gender (masculine / feminine) and number (singular / plural). Adjectives that describe nouns that are feminine and singular must also be feminine and singular. Nouns that are masculine and plural must be described by adjectives that are also masculine and plural, and so on.",
+    "In Spanish the adjective follows the noun: el chico guapo (the good-looking boy), not 'el guapo chico'. From the worksheet: a tall boy = un chico alto; a tall girl = una chica alta; a hard-working man = un hombre trabajador; a hard-working woman = una mujer trabajadora.",
+    "With the verb: es = (s/he/it) is, son = (they) are. La calculadora es nueva. Las calculadoras son nuevas."
+  ],
+  "examples": [
+    { "es": "El chico guapo", "en": "the good-looking boy" },
+    { "es": "La chica guapa", "en": "the good-looking girl" },
+    { "es": "El perro feo", "en": "the ugly dog" },
+    { "es": "La casa bonita", "en": "the nice house" },
+    { "es": "El carro es rápido. Los carros son rápidos.", "en": "The car is fast. The cars are fast." },
+    { "es": "Tu gato es extraño. Tus gatos son extraños.", "en": "Your cat is strange. Your cats are strange." }
+  ],
+  "items": [
+    { "prompt": "The good-looking boys", "answer": "los chicos guapos" },
+    { "prompt": "The good-looking girls", "answer": "las chicas guapas" },
+    { "prompt": "The ugly dogs", "answer": "los perros feos" },
+    { "prompt": "The pretty (nice) houses", "answer": "las casas bonitas" },
+    { "prompt": "The good-looking boy", "answer": "el chico guapo" },
+    { "prompt": "The good-looking girl", "answer": "la chica guapa" },
+    { "prompt": "The ugly dog", "answer": "el perro feo" },
+    { "prompt": "The nice house", "answer": "la casa bonita" },
+    { "prompt": "The calculator is new", "answer": "la calculadora es nueva" },
+    { "prompt": "The calculators are new", "answer": "las calculadoras son nuevas" },
+    { "prompt": "The car is fast", "answer": "el carro es rápido", "alt": ["el coche es rápido"] },
+    { "prompt": "The cars are fast", "answer": "los carros son rápidos", "alt": ["los coches son rápidos"] },
+    { "prompt": "Your cat is strange", "answer": "tu gato es extraño" },
+    { "prompt": "Your cats are strange", "answer": "tus gatos son extraños" },
+    { "prompt": "A tall boy", "answer": "un chico alto" },
+    { "prompt": "A tall girl", "answer": "una chica alta" },
+    { "prompt": "A hard-working man", "answer": "un hombre trabajador" },
+    { "prompt": "A hard-working woman", "answer": "una mujer trabajadora" }
+  ]
+}

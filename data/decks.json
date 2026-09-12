@@ -1,5 +1,17 @@
 {
   "decks": [
-    { "id": "u1", "file": "data/vocab/u1.json" }
+    { "id": "saludos", "file": "data/vocab/saludos.json" },
+    { "id": "preguntas", "file": "data/vocab/preguntas.json" },
+    { "id": "gramatica-vocab", "file": "data/vocab/gramatica-vocab.json" },
+    { "id": "descripciones", "file": "data/vocab/descripciones.json" },
+    { "id": "guapo", "file": "data/vocab/guapo.json" },
+    { "id": "profesiones", "file": "data/vocab/profesiones.json" },
+    { "id": "television", "file": "data/vocab/television.json" },
+    { "id": "tsm-frases", "file": "data/vocab/tsm-frases.json" },
+    { "id": "meses", "file": "data/vocab/meses.json" },
+    { "id": "familia", "file": "data/vocab/familia.json" },
+    { "id": "como-eres", "file": "data/vocab/como-eres.json" },
+    { "id": "actividades", "file": "data/vocab/actividades.json" },
+    { "id": "lugares", "file": "data/vocab/lugares.json" }
   ]
 }

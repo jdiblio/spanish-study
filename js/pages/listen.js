@@ -18,14 +18,14 @@ async function main() {
     .filter((s) => s.media.length);
 
   app.replaceChildren(
-    el('div', { class: 'section-title' }, el('h1', {}, 'Escuchar y ver'), el('span', { class: 'en' }, 'Listen & watch')),
+    el('div', { class: 'section-title' }, el('h1', {}, 'Escuchar y leer'), el('span', { class: 'en' }, 'Listen, watch & read')),
     el('div', { class: 'card' },
-      el('h2', {}, 'How to get the most out of a song or video'),
+      el('h2', {}, 'How to get the most out of a song, video, or reading'),
       el('ol', { class: 'muted', style: 'margin:0; padding-left:1.25rem' },
-        el('li', {}, 'Watch or listen once without reading anything. Just try to follow the story.'),
-        el('li', {}, 'Watch again with the lyrics or subtitles. Notice the words you did not catch.'),
-        el('li', {}, 'Practice its vocabulary deck (button on each card).'),
-        el('li', {}, 'A few days later, watch it a third time. You will catch much more.'))),
+        el('li', {}, 'Go through it once without looking anything up. Just try to follow the story.'),
+        el('li', {}, 'Go through it again with the lyrics, subtitles, or glosses. Notice the words you did not catch.'),
+        el('li', {}, 'Practice its vocabulary deck (button on each card). For readings, answer the questions out loud.'),
+        el('li', {}, 'A few days later, do it a third time. You will catch much more.'))),
     ...(sections.length
       ? sections.map(({ unit, media }) => el('section', { class: 'unit mt', id: `unit-${unit.id}` },
           el('h2', {}, unit.title),

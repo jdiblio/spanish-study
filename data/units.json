@@ -1,37 +1,200 @@
 {
   "units": [
     {
-      "id": "u1",
-      "title": "Unidad 1 · Saludos y presentaciones",
-      "description": "Greetings, goodbyes, introducing yourself, and saying where you are from. This is an example unit. It gets replaced with the real class materials.",
-      "decks": ["u1"],
+      "id": "u-recursos",
+      "title": "Recursos de la clase (Español 1-2)",
+      "description": "The class slides, Quizlets, and videos. The class is currently at slide 72.",
+      "decks": [],
       "resources": [
         {
           "type": "slides",
-          "title": "Example slides: Saludos",
-          "file": "files/slides/u1-ejemplo.pdf",
-          "date": "2026-09-08"
+          "title": "Class slides (Google Slides)",
+          "url": "https://docs.google.com/presentation/d/1Od5Q4txxhyUnkmno_kyuEt8hWUsf17f7vNyvVsAhVSY/edit?usp=sharing",
+          "note": "We are up to slide 72. Everything on this site comes from slides 1–72 so far."
         },
         {
-          "type": "assignment",
-          "title": "Example assignment: Presentaciones",
-          "file": "files/assignments/u1-ejemplo.pdf",
-          "date": "2026-09-10",
-          "due": "2026-09-18"
+          "type": "quizlet",
+          "title": "Quizlet activity (code AEFIHJ)",
+          "url": "https://quizlet.com/join-activity?code=AEFIHJ",
+          "note": "Join code from class. These codes expire; if it stops working, ask for the set link."
+        },
+        {
+          "type": "quizlet",
+          "title": "Quizlet activity (code AASQRG)",
+          "url": "https://quizlet.com/join-activity?code=AASQRG",
+          "note": "Join code from class. These codes expire; if it stops working, ask for the set link."
+        },
+        {
+          "type": "youtube",
+          "title": "El alfabeto: Learn Spanish alphabet and vowels (BASHO & FRIENDS)",
+          "url": "https://youtu.be/9LT9ltzFJTQ"
+        },
+        {
+          "type": "youtube",
+          "title": "Alphabet & Pronunciation (Standard Deviants Spanish, Mod 1)",
+          "url": "https://youtu.be/KsuWfy3AYCU"
+        }
+      ]
+    },
+    {
+      "id": "u-saludos",
+      "title": "Saludos y preguntas",
+      "description": "Greetings, class phrases, and the question words. Slides 5–15.",
+      "decks": ["saludos", "preguntas"],
+      "resources": []
+    },
+    {
+      "id": "u-gramatica",
+      "title": "Reglas 1–5: género, artículos, concordancia, posesivos y objeto directo",
+      "description": "The five rules from slides 16–21: noun gender and plurals, el/la/los/las, noun-adjective agreement, mi/tu/su, and lo/la/los/las. Practice them on the Gramática page.",
+      "decks": ["gramatica-vocab"],
+      "resources": [
+        {
+          "type": "link",
+          "title": "Grammar practice: rules 1–5",
+          "url": "grammar.html",
+          "note": "Typed practice built from the exercises on the slides."
         },
         {
           "type": "wooly",
-          "title": "Example Señor Wooly song",
-          "url": "https://www.senorwooly.com/",
-          "note": "Placeholder link. The real song link goes here.",
-          "deck": "u1"
+          "title": "Señor Wooly: No lo tengo",
+          "url": "https://student.senorwooly.com/stories/no-lo-tengo",
+          "note": "Direct object pronouns in action (Rule 5): 'No, no lo tengo' = No, I don't have it."
+        }
+      ]
+    },
+    {
+      "id": "u-guapo",
+      "title": "Guapo y las descripciones: ¿Cómo es?",
+      "description": "Describing people: the Señor Wooly song Guapo, the story of Víctor, and the descriptive adjectives from slides 24 and 66.",
+      "decks": ["descripciones", "guapo"],
+      "resources": [
+        {
+          "type": "wooly",
+          "title": "Señor Wooly: Guapo",
+          "url": "https://student.senorwooly.com/stories/guapo",
+          "deck": "guapo",
+          "note": "Focus questions: ¿Quién es? ¿Cómo es? ¿De dónde es? ¿Qué hace? ¿En qué trabaja?"
         },
         {
-          "type": "edpuzzle",
-          "title": "Example Edpuzzle",
-          "url": "https://edpuzzle.com/",
-          "due": "2026-09-16",
-          "note": "Placeholder link. The real Edpuzzle assignment link goes here."
+          "type": "reading",
+          "title": "Lectura: la historia de Víctor (Guapo)",
+          "note": "From slides 26–29. Read it, then answer the questions out loud.",
+          "deck": "guapo",
+          "text": [
+            "Hay un hombre. Se llama Víctor. Víctor es muy guapo. Víctor es alto. Es delgado (thin). Víctor tiene pelo (hair) castaño (brown). Víctor tiene ojos verdes (green eyes). Víctor tiene mujeres (women) a (at) su (his) lado (side). Las mujeres dicen (they say) que (that) es muy (very) guapo.",
+            "Víctor no tiene personalidad. No necesita personalidad, porque es guapo. En casa, Víctor no ayuda (help). Víctor no necesita ayudar, porque es guapo. Víctor ve películas (movies) con mujeres (women), no lee (read) libros. No es necesario leer, porque Víctor es guapo. Víctor no es ni (neither) generoso ni (nor) simpático. En la opinión de Víctor, no es necesario porque es muy muy muy muy guapo.",
+            "Víctor tiene pelo liso (straight), castaño y un poco largo. El otro hombre no tiene mucho pelo. Su pelo es canoso. Víctor tiene los ojos verdes y bonitos. El otro hombre tiene ojos pequeños y lleva (he wears) anteojos (glasses). Víctor piensa (thinks) que (that) anteojos son (are) feos. Víctor siempre tiene mujeres bonitas a su lado. El otro hombre no tiene mujeres bonitas a su lado porque él no es guapo. Es feo.",
+            "Cuando Víctor va al restaurante con las mujeres, no paga (he doesn't pay) la cuenta (the bill). Víctor le da (gives) la cuenta a (to) una mujer. Víctor le da su (his) foto (photo) a la mesera (waitress). La mesera está (is) contenta (happy), porque Víctor es muy guapo."
+          ],
+          "questions": [
+            "¿Cómo se llama el hombre?",
+            "¿Es Víctor guapo o es feo? ¿Es muy guapo o es un poco guapo?",
+            "¿Es alto o es bajo? ¿Es gordo o flaco?",
+            "¿Tiene pelo rubio o tiene pelo castaño? ¿Tiene ojos verdes o tiene ojos azules?",
+            "¿Cuántas mujeres hay a su lado? ¿Qué dicen?",
+            "¿Tiene Víctor una personalidad? ¿Por qué?",
+            "¿Víctor ayuda en casa? ¿Por qué no necesita ayudar?",
+            "¿Víctor lee muchos libros? ¿Por qué? ¿Qué hace?",
+            "¿Es arrogante o humilde? ¿Es sexista?",
+            "¿Quién tiene pelo castaño y liso? ¿Quién tiene pelo canoso y corto?",
+            "¿Quién tiene ojos verdes y bonitos? ¿Quién lleva anteojos?",
+            "¿Quién piensa que los anteojos son feos?",
+            "¿Quién NO tiene muchas amigas bonitas? ¿Por qué?",
+            "¿Quién paga la cuenta en el restaurante? (¿Víctor o una mujer paga?)",
+            "¿Qué le da Víctor a la mesera? (¿Le da dinero o le da su foto?)",
+            "¿Cómo está la mesera cuando Víctor le da su foto? (¿Está contenta o está triste?) ¿Por qué?",
+            "En tu opinión, ¿es Víctor arrogante o humilde? ¿Es generoso o tacaño? ¿Es simpático o antipático?"
+          ]
+        },
+        {
+          "type": "assignment",
+          "title": "¿Cómo es? Drawing project (slide 67)",
+          "note": "Draw the girl from the song (as you imagine her) or make up your own character. Show ¿Cómo es? (at least 4 physical things and 2 personality things), ¿De dónde es? (nationality), ¿Dónde vive ella?, and ¿En qué trabaja ella? / ¿Qué hace? Include at least 5 complete sentences that answer those questions. Example: Ella es estudiante. Así que = so."
+        }
+      ]
+    },
+    {
+      "id": "u-famosos",
+      "title": "¿Quién es? Profesiones y famosos",
+      "description": "Professions (slide 30) and the celebrity description practice (slides 33–60): ¿Quién es? ¿Qué es? ¿Cómo es? ¿De dónde es? ¿En qué trabaja?",
+      "decks": ["profesiones"],
+      "resources": []
+    },
+    {
+      "id": "u-lecturas",
+      "title": "Lecturas: La televisión es muy importante y Austin Powers",
+      "description": "Two readings from slides 51–65 and the Spanish Now! Unit One worksheets.",
+      "decks": ["television"],
+      "resources": [
+        {
+          "type": "reading",
+          "title": "Lectura: La televisión es muy importante (preguntas)",
+          "note": "The reading itself is in the Spanish Now! Unit One worksheet. These are the questions from slides 51 and 54. Vocabulary is in the deck.",
+          "deck": "television",
+          "questions": [
+            "¿Quién es estudiosa?",
+            "¿Dónde está la madre?",
+            "¿Qué lee el padre?",
+            "¿Qué escucha la mamá?",
+            "¿Cómo se llama el hermano?",
+            "¿Qué (what) quiere (does he want) hacer (to do) el hermano?",
+            "¿Qué pone el hermano? ¿La radio o la televisión?",
+            "¿Qué quiere hacer Pepita? ¿Por qué?",
+            "¿Cuál es el programa favorito de Pepita?",
+            "¿Qué quiere hacer Pepita ahora (now)?"
+          ]
+        },
+        {
+          "type": "reading",
+          "title": "Lectura: Austin Powers",
+          "note": "From slides 61–65.",
+          "deck": "television",
+          "text": [
+            "Hay un hombre que se llama Austin Powers. Austin es bajo, blanco, divertido y muy guapo. Tiene mucho pelo y muchos dientes malos. Tiene gafas / anteojos también. ¡Es peludo! (He is hairy!)",
+            "Austin vive en Londres, Inglaterra. Él es inglés. ¡Vive en un apartamento muy chévere! (very groovy)",
+            "¿En qué trabaja Austin? (In what does Austin work? i.e. what is his job) ¿Es Austin carpintero? ¿Es Austin conductor? ¿Es Austin policía? ¿Es Austin pintor? ¿Es Austin taxista? ¿Es Austin espía? ¡Sí!",
+            "Austin está contento. ¿Por qué está contento? Porque tiene muchas mujeres bonitas a su lado. También tiene un carro bueno y mucho dinero. ¡Austin es rico!",
+            "Austin tiene un enemigo. Su enemigo se llama Doctor Malo (Evil). El Doctor Malo no es simpático. Él es muy antipático. El Doctor Malo es bajo y feo. A él no le gusta Austin Powers. El doctor es arrogante. No es humilde. El doctor quiere controlar el mundo."
+          ],
+          "questions": [
+            "¿En qué trabaja Austin?",
+            "¿Por qué está contento?"
+          ]
+        },
+        {
+          "type": "assignment",
+          "title": "Spanish Now! Unit One worksheets",
+          "note": "Answer the questions (together as a class or individually). Submit on Canvas using Kami. (Slide 55)"
+        }
+      ]
+    },
+    {
+      "id": "u-todo-sobre-mi",
+      "title": "Todo sobre mí",
+      "description": "The 'Todo (everything) sobre (about) mí (me)' worksheet: name, birthday and months, where you are from, your family, what you are like, what you like to do, and your happy place.",
+      "decks": ["tsm-frases", "meses", "familia", "como-eres", "actividades", "lugares"],
+      "resources": [
+        {
+          "type": "assignment",
+          "title": "Todo sobre mí (worksheet, Google Doc)",
+          "url": "https://docs.google.com/document/d/1VXhRnMiE42-WlRmcWv4oa1VeVasvr6MQ5YYFpK_0i2A/edit?usp=sharing",
+          "embed": "https://docs.google.com/document/d/1VXhRnMiE42-WlRmcWv4oa1VeVasvr6MQ5YYFpK_0i2A/preview",
+          "note": "Fill in the nine sections. Write four things you like to do starting with 'Me gusta…'."
+        }
+      ]
+    },
+    {
+      "id": "u-canciones",
+      "title": "Más canciones de Señor Wooly",
+      "description": "Songs assigned in class that don't have slides yet.",
+      "decks": [],
+      "resources": [
+        {
+          "type": "wooly",
+          "title": "Señor Wooly: Flores",
+          "url": "https://student.senorwooly.com/stories/flores",
+          "note": "No class vocabulary for this song yet. Send the worksheet or lyrics sheet when you get it."
         }
       ]
     }

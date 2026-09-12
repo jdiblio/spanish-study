@@ -1,0 +1,40 @@
+{
+  "id": "posesivos",
+  "title": "Regla 4: adjetivos posesivos (mi, tu, su)",
+  "source": "Slide 19",
+  "summary": "mi / tu / su tell you whose something is. They go plural with the noun, but never change for gender.",
+  "instruction": "Which possessive adjective?",
+  "explanation": [
+    "Rule 4: Possessive adjectives are adjectives that tell you to whom something belongs: mi = my, tu = your, su = his / her / their.",
+    "Like other adjectives, they must be made plural if the noun they describe is plural: mis, tus, sus. However, these adjectives are not affected by gender: mi libro, mi casa.",
+    "En la clase de matemáticas, necesito mi calculadora. = In the mathematics class, I need my calculator. En la clase de español, ella necesita su diccionario. = In Spanish class, she needs her dictionary."
+  ],
+  "examples": [
+    { "es": "Mi libro · Mis libros", "en": "my book · my books" },
+    { "es": "Tu mesa · Tus mesas", "en": "your table · your tables" },
+    { "es": "Su perro · Sus perros", "en": "his dog · her dogs" },
+    { "es": "Su computadora · Sus computadoras", "en": "their computer · their computers" }
+  ],
+  "items": [
+    { "prompt": "My dog = ___ perro", "answer": "mi" },
+    { "prompt": "Your house = ___ casa", "answer": "tu" },
+    { "prompt": "His friend = ___ amigo", "answer": "su" },
+    { "prompt": "Her car = ___ carro", "answer": "su" },
+    { "prompt": "Their teacher = ___ profesor", "answer": "su" },
+    { "prompt": "Their class = ___ clase", "answer": "su" },
+    { "prompt": "My dogs = ___ perros", "answer": "mis" },
+    { "prompt": "Your houses = ___ casas", "answer": "tus" },
+    { "prompt": "His friends = ___ amigos", "answer": "sus" },
+    { "prompt": "Her cars = ___ carros", "answer": "sus" },
+    { "prompt": "Their teachers = ___ profesores", "answer": "sus" },
+    { "prompt": "Their classes = ___ clases", "answer": "sus" },
+    { "prompt": "My book (write the whole thing)", "answer": "mi libro" },
+    { "prompt": "My books (write the whole thing)", "answer": "mis libros" },
+    { "prompt": "Your table (write the whole thing)", "answer": "tu mesa" },
+    { "prompt": "Your tables (write the whole thing)", "answer": "tus mesas" },
+    { "prompt": "His dog (write the whole thing)", "answer": "su perro" },
+    { "prompt": "Her dogs (write the whole thing)", "answer": "sus perros" },
+    { "prompt": "Their computer (write the whole thing)", "answer": "su computadora" },
+    { "prompt": "Their computers (write the whole thing)", "answer": "sus computadoras" }
+  ]
+}

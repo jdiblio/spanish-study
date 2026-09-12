@@ -1,0 +1,36 @@
+{
+  "id": "ser",
+  "title": "El verbo ser: soy, eres, es, son",
+  "source": "Slide 21, the Guapo worksheet, and the Todo sobre mí worksheet",
+  "summary": "The verb 'to be' as the class has used it so far: es (one person or thing), son (more than one), soy (I), eres (you).",
+  "instruction": "Fill in the verb",
+  "explanation": [
+    "But wait! There's one last thing you need to make a complete sentence: a verb! Start with the verb 'to be': es = (s/he/it) is, son = (they / you guys) are.",
+    "Use es for one person or thing and son for more than one: El carro es rápido. Los carros son rápidos.",
+    "From the songs and worksheets you have also seen: soy = I am (Soy guapo. Yo soy de California.) and eres = you are (Tú no eres guapo, eres feo. ¿De dónde eres?)."
+  ],
+  "examples": [
+    { "es": "La calculadora es nueva.", "en": "The calculator is new." },
+    { "es": "Las calculadoras son nuevas.", "en": "The calculators are new." },
+    { "es": "Soy alto. Soy delgado.", "en": "I am tall. I am thin." },
+    { "es": "Tú no eres guapo, eres feo.", "en": "You are not good-looking, you are ugly." }
+  ],
+  "items": [
+    { "prompt": "La calculadora ___ nueva.", "answer": "es" },
+    { "prompt": "Las calculadoras ___ nuevas.", "answer": "son" },
+    { "prompt": "El carro ___ rápido.", "answer": "es" },
+    { "prompt": "Los carros ___ rápidos.", "answer": "son" },
+    { "prompt": "Tu gato ___ extraño.", "answer": "es" },
+    { "prompt": "Tus gatos ___ extraños.", "answer": "son" },
+    { "prompt": "Víctor ___ muy guapo.", "answer": "es" },
+    { "prompt": "Ellos ___ estudiantes de USC y UCLA.", "answer": "son" },
+    { "prompt": "Víctor piensa que los anteojos ___ feos.", "answer": "son" },
+    { "prompt": "Mi familia ___ activa y divertida.", "answer": "es" },
+    { "prompt": "El Doctor Malo no ___ simpático.", "answer": "es" },
+    { "prompt": "Kit ___ simpático, negro y gordo.", "answer": "es" },
+    { "prompt": "Yo ___ guapo.", "answer": "soy" },
+    { "prompt": "Tú no ___ guapo, eres feo.", "answer": "eres" },
+    { "prompt": "Yo ___ de California.", "answer": "soy" },
+    { "prompt": "¿De dónde ___ tú?", "answer": "eres" }
+  ]
+}

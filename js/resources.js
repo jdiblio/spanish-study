@@ -1,18 +1,19 @@
 // Class resource cards (slides, assignments, songs, videos, links) shared by the Clase and Escuchar pages.
-import { el, daysUntil, formatDate, relativeDays } from './app.js';
+import { el, kids, daysUntil, formatDate, relativeDays } from './app.js';
 
 export const TYPES = {
-  slides: { icon: '📊', label: 'Slides' },
-  assignment: { icon: '📝', label: 'Assignment' },
+  slides: { icon: '📊', label: 'Slides', open: 'Open in Google Slides' },
+  assignment: { icon: '📝', label: 'Assignment', open: 'Open' },
   wooly: { icon: '🎵', label: 'Señor Wooly', open: 'Open on Señor Wooly' },
   edpuzzle: { icon: '🎬', label: 'Edpuzzle', open: 'Open on Edpuzzle' },
   youtube: { icon: '▶️', label: 'Video', open: 'Open on YouTube' },
   quizlet: { icon: '🃏', label: 'Quizlet', open: 'Open on Quizlet' },
+  reading: { icon: '📖', label: 'Reading' },
   notes: { icon: '📒', label: 'Notes' },
-  link: { icon: '🔗', label: 'Link', open: 'Open link' },
+  link: { icon: '🔗', label: 'Link', open: 'Open' },
 };
 
-export const MEDIA_TYPES = ['wooly', 'edpuzzle', 'youtube'];
+export const MEDIA_TYPES = ['wooly', 'edpuzzle', 'youtube', 'reading'];
 
 export function youtubeId(url) {
   try {
@@ -47,6 +48,12 @@ export function resourceCard(r) {
   }
 
   const actions = [];
+  if (r.text?.length || r.questions?.length) {
+    actions.push(el('button', { class: 'btn btn-sm btn-primary', onClick: () => toggleViewer(() => el('div', { class: 'card reading' },
+      r.text?.length ? el('div', { lang: 'es' }, r.text.map((p) => el('p', {}, p))) : null,
+      r.questions?.length ? el('div', {}, el('h3', {}, 'Preguntas'), el('ol', { lang: 'es' }, r.questions.map((q) => el('li', {}, q)))) : null
+    )) }, 'Read'));
+  }
   if (r.file) {
     const isPdf = /\.pdf$/i.test(r.file);
     if (isPdf) {
@@ -65,13 +72,17 @@ export function resourceCard(r) {
     if (r.embed) {
       actions.push(el('button', { class: 'btn btn-sm btn-primary', onClick: () => toggleViewer(() => el('iframe', { class: 'embed-frame', src: r.embed, title: r.title })) }, 'Open here'));
     }
-    actions.push(el('a', { class: `btn btn-sm${actions.length ? '' : ' btn-primary'}`, href: r.url, target: '_blank', rel: 'noopener' }, t.open || 'Open'));
+    const external = /^https?:/i.test(r.url);
+    actions.push(el('a', {
+      class: `btn btn-sm${actions.length ? '' : ' btn-primary'}`, href: r.url,
+      target: external ? '_blank' : null, rel: external ? 'noopener' : null,
+    }, t.open || 'Open'));
   }
   if (r.deck) {
     actions.push(el('a', { class: 'btn btn-sm', href: `vocab.html?deck=${encodeURIComponent(r.deck)}` }, '🃏 Practice its vocab'));
   }
 
-  card.append(
+  card.append(...kids(
     el('div', { class: 'resource-head' },
       el('span', { class: 'resource-icon', 'aria-hidden': 'true' }, t.icon),
       el('div', {},
@@ -82,6 +93,6 @@ export function resourceCard(r) {
           dueBadge(r.due)),
         r.note ? el('div', { class: 'muted small' }, r.note) : null)),
     actions.length ? el('div', { class: 'resource-actions' }, actions) : null
-  );
+  ));
   return card;
 }

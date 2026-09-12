@@ -1,0 +1,10 @@
+{
+  "topics": [
+    { "id": "articulos", "file": "data/grammar/articulos.json" },
+    { "id": "concordancia", "file": "data/grammar/concordancia.json" },
+    { "id": "posesivos", "file": "data/grammar/posesivos.json" },
+    { "id": "objeto-directo", "file": "data/grammar/objeto-directo.json" },
+    { "id": "ser", "file": "data/grammar/ser.json" },
+    { "id": "guapo-frases", "file": "data/grammar/guapo-frases.json" }
+  ]
+}

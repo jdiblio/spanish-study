@@ -1,0 +1,28 @@
+{
+  "id": "preguntas",
+  "unit": "u-saludos",
+  "title": "Palabras interrogativas (question words)",
+  "source": "Slides 15, 25, 68",
+  "items": [
+    { "es": "¿Qué es?", "en": "What is it (s/he)?" },
+    { "es": "¿Quién es?", "en": "Who is it (s/he)?" },
+    { "es": "¿Cuál es?", "en": "Which is it?" },
+    { "es": "¿Cómo está?", "en": "How is s/he? (how is s/he feeling)" },
+    { "es": "¿Cómo es?", "en": "What is s/he (it) like?" },
+    { "es": "¿Cuándo es?", "en": "When is it?" },
+    { "es": "¿Cuánto es?", "en": "How much is it?" },
+    { "es": "¿Dónde está?", "en": "Where is it (s/he)?" },
+    { "es": "¿De dónde es?", "en": "Where is s/he (it) from?" },
+    { "es": "¿Por qué?", "en": "Why?" },
+    { "es": "porque", "en": "because", "example": "¿Por qué es? Es porque…" },
+    { "es": "¿Cómo se llama?", "en": "What is his/her name? (How is s/he called?)" },
+    { "es": "¿Qué hace?", "en": "What does s/he do?" },
+    { "es": "¿En qué trabaja?", "en": "In what does s/he work? (what is his/her job)" },
+    { "es": "¿Dónde vive?", "en": "Where does s/he live?" },
+    { "es": "¿Cuántos años tiene?", "en": "How old is s/he? (how many years does s/he have)" },
+    { "es": "¿Adónde va?", "en": "Where does s/he go?" },
+    { "es": "¿Qué lleva?", "en": "What is s/he wearing?" },
+    { "es": "¿Qué tiene?", "en": "What does s/he have?" },
+    { "es": "¿Qué significan?", "en": "What do they mean?" }
+  ]
+}

@@ -80,7 +80,7 @@ const ARTICLE = /^(el|la|los|las|un|una|unos|unas)\s+/;
 export function normalize(s) {
   return String(s || '')
     .toLowerCase()
-    .replace(/[¿?¡!.,;:"“”'‘’()]/g, '')
+    .replace(/[¿?¡!.,;:"“”'‘’()…_]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -89,17 +89,20 @@ export function stripAccents(s) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
-function variants(s) {
+function variants(s, strict = false) {
   const n = normalize(s);
-  const set = new Set([n, n.replace(ARTICLE, '')]);
+  const set = new Set(strict ? [n] : [n, n.replace(ARTICLE, '')]);
   return [...set].filter(Boolean);
 }
 
-/** 'correct' | 'almost' (right letters, wrong accents) | 'wrong' */
-export function checkAnswer(input, item) {
-  const guesses = variants(input);
+/**
+ * 'correct' | 'almost' (right letters, wrong accents) | 'wrong'
+ * strict: articles are not optional (for grammar practice where the article is the point).
+ */
+export function checkAnswer(input, item, { strict = false } = {}) {
+  const guesses = variants(input, strict);
   if (!guesses.length) return 'wrong';
-  const answers = [item.es, ...(item.alt || [])].flatMap(variants);
+  const answers = [item.es, ...(item.alt || [])].flatMap((a) => variants(a, strict));
   if (guesses.some((g) => answers.includes(g))) return 'correct';
   const aa = answers.map(stripAccents);
   if (guesses.map(stripAccents).some((g) => aa.includes(g))) return 'almost';

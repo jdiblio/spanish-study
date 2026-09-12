@@ -1,0 +1,20 @@
+{
+  "id": "meses",
+  "unit": "u-todo-sobre-mi",
+  "title": "Los meses del año",
+  "source": "Todo sobre mí worksheet (Google Doc)",
+  "items": [
+    { "es": "enero", "en": "January", "example": "Mi cumpleaños es el once de enero." },
+    { "es": "febrero", "en": "February" },
+    { "es": "marzo", "en": "March" },
+    { "es": "abril", "en": "April" },
+    { "es": "mayo", "en": "May" },
+    { "es": "junio", "en": "June" },
+    { "es": "julio", "en": "July" },
+    { "es": "agosto", "en": "August", "example": "Lunes, 24 de agosto." },
+    { "es": "septiembre", "en": "September" },
+    { "es": "octubre", "en": "October" },
+    { "es": "noviembre", "en": "November" },
+    { "es": "diciembre", "en": "December" }
+  ]
+}

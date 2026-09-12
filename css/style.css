@@ -348,6 +348,14 @@ kbd {
 .video-frame { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 10px; background: #000; }
 .embed-frame { width: 100%; height: 500px; border: 0; border-radius: 10px; }
 
+/* ---------- Readings & grammar ---------- */
+.reading p { line-height: 1.7; }
+.reading ol { margin: 0; padding-left: 1.25rem; }
+.reading li { margin-bottom: .35rem; }
+.examples { width: 100%; border-collapse: collapse; margin-top: .5rem; }
+.examples td { padding: .35rem .6rem .35rem 0; border-top: 1px solid var(--border); vertical-align: top; }
+.examples td:first-child { font-weight: 600; }
+
 /* ---------- Home ---------- */
 .hero { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .75rem; margin-bottom: 1.25rem; }
 .streak { font-size: 1rem; font-weight: 700; padding: .4rem .8rem; }
