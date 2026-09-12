@@ -1,0 +1,39 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "title": "Unidad 1 · Saludos y presentaciones",
+      "description": "Greetings, goodbyes, introducing yourself, and saying where you are from. This is an example unit. It gets replaced with the real class materials.",
+      "decks": ["u1"],
+      "resources": [
+        {
+          "type": "slides",
+          "title": "Example slides: Saludos",
+          "file": "files/slides/u1-ejemplo.pdf",
+          "date": "2026-09-08"
+        },
+        {
+          "type": "assignment",
+          "title": "Example assignment: Presentaciones",
+          "file": "files/assignments/u1-ejemplo.pdf",
+          "date": "2026-09-10",
+          "due": "2026-09-18"
+        },
+        {
+          "type": "wooly",
+          "title": "Example Señor Wooly song",
+          "url": "https://www.senorwooly.com/",
+          "note": "Placeholder link. The real song link goes here.",
+          "deck": "u1"
+        },
+        {
+          "type": "edpuzzle",
+          "title": "Example Edpuzzle",
+          "url": "https://edpuzzle.com/",
+          "due": "2026-09-16",
+          "note": "Placeholder link. The real Edpuzzle assignment link goes here."
+        }
+      ]
+    }
+  ]
+}

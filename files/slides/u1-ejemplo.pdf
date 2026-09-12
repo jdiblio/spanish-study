@@ -1,0 +1,85 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 339 >>
+stream
+BT
+/F1 26 Tf 60 720 Td (Unidad 1: Saludos) Tj
+/F1 14 Tf 0 -44 Td 20 TL
+(Example slides. The real class slides replace this file.) Tj T*
+() Tj T*
+(Saludos \(greetings\):) Tj T*
+(  Hola  -  hello) Tj T*
+(  Buenos días  -  good morning) Tj T*
+(  Buenas tardes  -  good afternoon) Tj T*
+(  Buenas noches  -  good evening / good night) Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 316 >>
+stream
+BT
+/F1 26 Tf 60 720 Td (Despedidas) Tj
+/F1 14 Tf 0 -44 Td 20 TL
+(Goodbyes:) Tj T*
+(  Adiós  -  goodbye) Tj T*
+(  Hasta luego  -  see you later) Tj T*
+(  Hasta mañana  -  see you tomorrow) Tj T*
+() Tj T*
+(¿Cómo estás? \(informal\)   ¿Cómo está usted? \(formal\)) Tj T*
+(  Bien / Muy bien / Mal / Más o menos) Tj T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 9 0 R /Resources << /Font << /F1 3 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 358 >>
+stream
+BT
+/F1 26 Tf 60 720 Td (Presentaciones) Tj
+/F1 14 Tf 0 -44 Td 20 TL
+(Introducing yourself:) Tj T*
+(  ¿Cómo te llamas?  -  What is your name?) Tj T*
+(  Me llamo...  -  My name is...) Tj T*
+(  Mucho gusto.  -  Nice to meet you.) Tj T*
+(  Igualmente.  -  Likewise.) Tj T*
+(  ¿De dónde eres?  -  Where are you from?) Tj T*
+(  Soy de...  -  I am from...) Tj T*
+ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000356 00000 n 
+0000000746 00000 n 
+0000000872 00000 n 
+0000001239 00000 n 
+0000001365 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+1774
+%%EOF
