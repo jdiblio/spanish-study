@@ -90,7 +90,9 @@ Spanish Study Website/
 ## Status
 - **Phase 1 done (2026-09-12).** Site scaffolded and tested in a browser. Run locally with
   `python -m http.server 8000` and open http://localhost:8000.
-- Next: Phase 2 (deploy to GitHub Pages), then real class content.
+- **Phase 2 done (2026-09-12).** Live at https://jdiblio.github.io/spanish-study/
+  (repo: https://github.com/jdiblio/spanish-study). Every push to `main` redeploys in about a minute.
+- Next: Phase 3, real class content.
 
 ## Phases
 
@@ -102,7 +104,7 @@ Spanish Study Website/
 - Export/Import progress.
 - Local testing.
 
-### Phase 2 – Deploy
+### Phase 2 – Deploy ✅
 - GitHub repo, GitHub Pages enabled. Live URL you can open on phone or laptop.
 
 ### Phase 3 – First real content
