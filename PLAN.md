@@ -87,9 +87,14 @@ Spanish Study Website/
     └── assignments/
 ```
 
+## Status
+- **Phase 1 done (2026-09-12).** Site scaffolded and tested in a browser. Run locally with
+  `python -m http.server 8000` and open http://localhost:8000.
+- Next: Phase 2 (deploy to GitHub Pages), then real class content.
+
 ## Phases
 
-### Phase 1 – Core (first build session)
+### Phase 1 – Core (first build session) ✅
 - Site shell, navigation, styling, mobile-friendly.
 - Vocabulario with spaced repetition, both directions, typed answers, accent helper, audio.
 - Hoy page with cards due + streak.

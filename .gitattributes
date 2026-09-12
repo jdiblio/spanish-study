@@ -1,0 +1,12 @@
+# Keep line endings consistent and never touch binary files.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.mp3 binary
+*.mp4 binary
+*.pptx binary
+*.docx binary
