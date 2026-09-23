@@ -103,7 +103,15 @@ Spanish Study Website/
   submit with corrections and best score). `data/tests.json` is empty until Jeffrey sends the
   class practice test; then build 3 versions with the same sections and question types, using
   only slides 1–72, and register them there (`data/tests/<id>.json`).
-- Next: the three practice-test versions, verbs (when the class gets there), more songs as assigned.
+- **2026-09-22 (later):** Jeffrey sent the "R1 (PRACTICE) Midterm" (Google Form screenshots).
+  Three versions built as `data/tests/r1-a.json`, `r1-b.json`, `r1-c.json`, each mirroring its 11
+  sections: match greetings, match question words, picture-scene reading (7 MC; here a short
+  Spanish scene replaces the photo), definite articles (4 MC + 4 fill), celebrity Sí/No grid
+  (Alcaraz, Taylor Swift, Austin Powers from the slides), noun-adjective agreement (4 MC + 2 fill),
+  possessives (7 fill), Guapo Sí/No (8), Sylvia "No lo tengo" reading + 5 D.O. pronoun MC, and the
+  writing section (3 translations with the test's word bank). 70 points each. All Spanish words
+  come from slides 1–72, the worksheets, or the test itself (checked by script).
+- Next: verbs (when the class gets there), more songs as assigned, new tests as the class gives them.
 
 ## Phases
 

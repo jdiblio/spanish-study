@@ -1,0 +1,199 @@
+{
+  "id": "r1-c",
+  "title": "Práctica del examen R1 · versión C",
+  "titleEn": "R1 midterm practice · version C",
+  "source": "Same sections as the R1 practice midterm; content from slides 1–72, the worksheets, and the practice test",
+  "description": "Noun-adjective agreement, subject pronouns, definite articles, possessives, direct object pronouns, and vocabulary. Same kinds of questions as the real practice midterm, different items.",
+  "instructions": "Answer everything, then press Submit at the bottom. Accents count on typed answers. For fill-in questions, ONLY write the missing word(s).",
+  "sections": [
+    {
+      "title": "Emparejar: Saludos",
+      "titleEn": "Match: Greetings",
+      "instructions": "Match each Spanish greeting to its English meaning.",
+      "questions": [
+        {
+          "type": "match",
+          "q": "Saludos",
+          "qEn": "Greetings",
+          "pairs": [
+            { "l": "Hola", "r": "Hi / Hello" },
+            { "l": "Buenas tardes", "r": "Good afternoon" },
+            { "l": "Hasta luego", "r": "See you later" },
+            { "l": "Estoy muy bien", "r": "I am very well" },
+            { "l": "Mucho gusto", "r": "Good to meet you" },
+            { "l": "De nada", "r": "You're welcome" },
+            { "l": "¿Cómo te llamas?", "r": "What is your name? (how do you call yourself)" },
+            { "l": "Buenas noches", "r": "Good night / evening" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Emparejar: Palabras interrogativas",
+      "titleEn": "Match: Question words",
+      "instructions": "Match each question to its English meaning.",
+      "questions": [
+        {
+          "type": "match",
+          "q": "Palabras interrogativas",
+          "qEn": "Question words",
+          "pairs": [
+            { "l": "¿Cómo está?", "r": "How is it?" },
+            { "l": "¿Cómo es?", "r": "What is it like?" },
+            { "l": "¿Cuánto es?", "r": "How much is it?" },
+            { "l": "¿Cuál es?", "r": "Which is it?" },
+            { "l": "¿Por qué es?", "r": "Why is it?" },
+            { "l": "¿Quién es?", "r": "Who is it?" },
+            { "l": "¿Dónde está?", "r": "Where is it?" },
+            { "l": "¿Cómo se llama?", "r": "What is his/her name?" },
+            { "l": "¿De dónde es?", "r": "Where is it from?" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lectura: Lucía y Mateo",
+      "titleEn": "Reading: Lucía and Mateo",
+      "instructions": "The real test shows a picture. Here, read the description instead, then answer the questions below.",
+      "textTitle": "Lucía y Mateo",
+      "text": [
+        "Hay dos amigos en el parque. La chica se llama Lucía. El chico se llama Mateo. Lucía es alta y delgada. Tiene pelo rubio y ojos azules. Mateo es bajo y fuerte. Tiene pelo castaño y ojos verdes. Lucía tiene una bicicleta nueva. Mateo tiene dos gatos pequeños.",
+        "Lucía es de España; es española. Mateo es de los Estados Unidos; es americano. Lucía es atlética y le gusta correr. Mateo es tranquilo y le gusta leer. Están en el parque con los gatos."
+      ],
+      "questions": [
+        { "type": "mc", "q": "¿Cómo se llama la muchacha (chica)?", "options": ["Mateo", "Lucía", "Española", "El parque", "Una bicicleta"], "answer": "Lucía" },
+        { "type": "mc", "q": "¿Dónde están ellos (las dos personas)?", "options": ["Están en la cocina", "Están en el parque", "Están tristes", "Quieren jugar al baloncesto"], "answer": "Están en el parque" },
+        { "type": "mc", "q": "Which is NOT correct...", "lang": "en", "options": ["Lucía es de España", "Mateo es de los Estados Unidos", "Mateo es español", "Lucía es española"], "answer": "Mateo es español" },
+        { "type": "mc", "q": "Which is NOT correct...", "lang": "en", "options": ["Lucía tiene ojos azules", "Mateo tiene ojos verdes", "Mateo tiene pelo rubio", "Lucía es alta", "Mateo tiene dos gatos"], "answer": "Mateo tiene pelo rubio" },
+        { "type": "mc", "q": "¿Quién tiene los gatos?", "options": ["Mateo los tiene", "Mateo las tiene", "Lucía los tiene", "Lucía lo tiene"], "answer": "Mateo los tiene", "explain": "gatos is masculine plural, so 'them' = los" },
+        { "type": "mc", "q": "¿Cómo es la bicicleta de Lucía?", "options": ["es nueva", "es vieja y sucia", "es grande y negra", "tiene pelo largo"], "answer": "es nueva" },
+        { "type": "mc", "q": "Which is (most likely) NOT correct...", "lang": "en", "options": ["Los chicos son amigos", "Lucía es atlética", "Mateo es tranquilo", "Lucía es débil", "Mateo tiene mascotas", "Lucía tiene una bicicleta"], "answer": "Lucía es débil" }
+      ]
+    },
+    {
+      "title": "Preguntas: artículos definidos",
+      "titleEn": "Questions: definite articles",
+      "instructions": "Choose the best option.",
+      "questions": [
+        { "type": "mc", "q": "The jacket = ___ abrigo", "lang": "en", "options": ["el", "la", "los", "las"], "answer": "el" },
+        { "type": "mc", "q": "The calculators = ___ calculadoras", "lang": "en", "options": ["el", "la", "los", "las"], "answer": "las" },
+        { "type": "mc", "q": "The friend (male) = ___ amigo", "lang": "en", "options": ["el", "la", "los", "las"], "answer": "el" },
+        { "type": "mc", "q": "The school = ___ escuela", "lang": "en", "options": ["el", "la", "los", "las"], "answer": "la" }
+      ]
+    },
+    {
+      "title": "Rellena los espacios: artículos",
+      "titleEn": "Fill in the blanks: articles",
+      "instructions": "Fill in the blank with the missing word. ONLY write the MISSING word.",
+      "questions": [
+        { "type": "fill", "q": "The instrument = ___ instrumento", "lang": "en", "answer": "el" },
+        { "type": "fill", "q": "The girls = ___ muchachas", "lang": "en", "answer": "las" },
+        { "type": "fill", "q": "The boys = ___ chicos", "lang": "en", "answer": "los" },
+        { "type": "fill", "q": "The house = ___ casa", "lang": "en", "answer": "la" }
+      ]
+    },
+    {
+      "title": "Austin Powers…",
+      "titleEn": "Austin Powers…",
+      "instructions": "Piensa en (think about) Austin Powers, from slides 61–65. For each statement: Sí, es verdad (it's true) or No, no es verdad (it is not true).",
+      "questions": [
+        { "type": "tf", "q": "es un hombre bajo", "answer": true, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "es una mujer alta", "answer": false, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "vive en Londres, Inglaterra", "answer": true, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "es americano", "answer": false, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "tiene mucho pelo", "answer": true, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "tiene dientes bonitos", "answer": false, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "lleva gafas", "answer": true, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "es carpintero", "answer": false, "labels": ["Sí, es verdad", "No, no es verdad"] },
+        { "type": "tf", "q": "es pobre", "answer": false, "labels": ["Sí, es verdad", "No, no es verdad"] }
+      ]
+    },
+    {
+      "title": "Concordancia: sustantivos y adjetivos",
+      "titleEn": "Noun-adjective agreement",
+      "instructions": "Rule #3: articles, nouns, and adjectives must agree in gender and number. Choose or write the correct form.",
+      "questions": [
+        { "type": "mc", "q": "The desks are hard = Los escritorios son ___", "lang": "en", "options": ["duro", "dura", "duros", "duras"], "answer": "duros" },
+        { "type": "mc", "q": "The jacket is expensive = El abrigo es ___", "lang": "en", "options": ["caro", "cara", "caros", "caras", "sucio"], "answer": "caro" },
+        { "type": "mc", "q": "The teachers (female) are nice = Las maestras son ___", "lang": "en", "options": ["simpático", "simpática", "simpáticos", "simpáticas"], "answer": "simpáticas" },
+        { "type": "mc", "q": "The man is old and the woman is young = El hombre es ___ y la mujer es ___", "lang": "en", "options": ["vieja…joven", "viejo…joven", "viejo…jóvenes", "viejos…joven"], "answer": "viejo…joven" },
+        { "type": "fill", "q": "The dirty car = ___ carro sucio", "lang": "en", "answer": "el", "alt": ["el carro sucio"] },
+        { "type": "fill", "q": "The pretty houses = ___ ___ ___", "lang": "en", "answer": "las casas bonitas" }
+      ]
+    },
+    {
+      "title": "Adjetivos posesivos",
+      "titleEn": "Possessive adjectives",
+      "instructions": "Rule #4: Possessive adjectives tell you to whom something belongs. En la clase de matemáticas, necesito mi calculadora. = In the mathematics class, I need my calculator. En la clase de español, ella necesita su diccionario. = In Spanish class, she needs her dictionary. Like other adjectives, 'my' and 'his/her' must be made plural if the noun they describe is plural. They are not affected by gender. ONLY write the missing word.",
+      "questions": [
+        { "type": "fill", "q": "My brother = ___ hermano", "lang": "en", "answer": "mi" },
+        { "type": "fill", "q": "Your table = ___ mesa", "lang": "en", "answer": "tu", "alt": ["su"] },
+        { "type": "fill", "q": "His books = ___ libros", "lang": "en", "answer": "sus" },
+        { "type": "fill", "q": "Her house = ___ casa", "lang": "en", "answer": "su" },
+        { "type": "fill", "q": "Their computers = ___ computadoras", "lang": "en", "answer": "sus" },
+        { "type": "fill", "q": "My friends = ___ amigos", "lang": "en", "answer": "mis" },
+        { "type": "fill", "q": "Your dogs = ___ perros", "lang": "en", "answer": "tus", "alt": ["sus"] }
+      ]
+    },
+    {
+      "title": "Guapo: en el restaurante",
+      "titleEn": "Guapo: at the restaurant",
+      "instructions": "Choose ALL that apply. Think about Víctor at the restaurant (slide 29) and the story on slides 26–28.",
+      "questions": [
+        { "type": "tf", "q": "Víctor va al restaurante con las mujeres", "answer": true, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "Víctor paga (pays) la cuenta", "answer": false, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "Víctor le da la cuenta a una mujer", "answer": true, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "Víctor le da su foto a la mesera", "answer": true, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "La mesera está triste", "answer": false, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "Víctor es humilde", "answer": false, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "Víctor tiene personalidad", "answer": false, "labels": ["Sí (Verdad)", "No (Falso)"] },
+        { "type": "tf", "q": "Las mujeres dicen que Víctor es muy guapo", "answer": true, "labels": ["Sí (Verdad)", "No (Falso)"] }
+      ]
+    },
+    {
+      "title": "No lo tengo: Sylvia",
+      "titleEn": "I don't have it: Sylvia (a disorganized girl)",
+      "instructions": "No lo tiene (She doesn't have it). Lee (read) y responde (respond) a las preguntas (to the questions).",
+      "textTitle": "Sylvia",
+      "text": [
+        "Sylvia es una chica. Es una chica normal, pero (but) no es estudiante buena. Es inteligente, pero tiene un problema grande en la escuela (school). Sylvia es una chica desordenada (disorganized). Va a (she goes to) una escuela para (for) chicas. Tiene muchas clases. Primero (first) tiene la clase de español. En la clase de español, Sylvia necesita (needs) su diccionario. Pero no lo tiene. Segundo (second), tiene la clase de matemáticas y la clase de arte. Para la clase de matemáticas necesita su calculadora. Pero no la tiene. Los profes (the teachers) de matemáticas y de español no están contentos (they are not happy).",
+        "También (also) tiene la clase de música. En la clase de música, necesita sus instrumentos. Pero no los tiene. Al fin del día (at the end of the day), Sylvia tiene la clase de ciencias (sciences) y la clase de gimnasia. Necesita sus experimentos para la clase de ciencias. No los tiene. En la clase de gimnasia necesita su uniforme. Pero no lo tiene.",
+        "Sus profesores no están contentos. Los profes están (they are) furiosos. Sylvia tiene muchos minutos de castigo (punishment / detention)."
+      ],
+      "questions": [
+        { "type": "mc", "q": "Sylvia necesita sus EXPERIMENTOS, pero no ___ tiene.", "note": "= Sylvia needs her experiments, but does not have \"THEM.\" How do you say \"them\" in this context?", "options": ["los", "las", "lo", "la"], "answer": "los" },
+        { "type": "mc", "q": "Sylvia necesita su PAPEL (masculine noun), pero no ___ tiene.", "note": "= Sylvia needs her paper, but does not have \"IT.\" How do you say \"it\" in this context?", "options": ["los", "las", "lo", "la"], "answer": "lo" },
+        { "type": "mc", "q": "Sylvia necesita sus COMPUTADORAS, pero no ___ tiene.", "note": "= Sylvia needs her computers, but does not have \"THEM.\" How do you say \"them\" in this context?", "options": ["los", "las", "lo", "la"], "answer": "las" },
+        { "type": "mc", "q": "Sylvia necesita su LAPICERO, pero no ___ tiene.", "note": "= Sylvia needs her pen, but does not have \"IT.\" How do you say \"it\" in this context?", "options": ["los", "las", "lo", "la"], "answer": "lo" },
+        { "type": "mc", "q": "Sylvia necesita su CALCULADORA, pero no ___ tiene.", "note": "= Sylvia needs her calculator, but does not have \"IT.\" How do you say \"it\" in this context?", "options": ["los", "las", "lo", "la"], "answer": "la" }
+      ]
+    },
+    {
+      "title": "La Sección de Escribir",
+      "titleEn": "The Writing Section",
+      "instructions": "Refer to the word bank below to help you with the translations. After you submit, compare your answer with the model answer and check the box if yours says the same things.",
+      "bankTitle": "Banco de Palabras (word bank) · Descripciones de personas:",
+      "bank": ["rico(a) = rich", "pobre = poor", "famoso(a) = famous", "guapo(a) = handsome", "bonito(a) = pretty / lovely", "delgado(a) = slim / slender", "simpático(a) = nice", "arrogante = arrogant", "alto(a) = tall", "talento = talent", "talentoso(a) = talented", "aburrido(a) = boring", "los ojos = eyes", "verde(s) = green", "azul(es) = blue", "actor / actriz = actor / actress", "músico(a) = musician", "cantante = singer", "listo(a) = smart", "generoso(a) = generous", "poco(a) = little / few", "también = also / too", "ella / él tiene = s/he has", "el pelo = the hair", "largo(a) = long", "liso(a) = straight", "rubio(a) = blonde", "moreno(a) = brunette", "castaño(a) = brown", "mucho(a) = much", "vive(n) en = live(s) in", "le gusta = likes", "le gustan = likes (plural)", "Yo = I · Soy = am", "Él = he · Ella = she · Es = is", "Ellos / Ellas = they · Son = are"],
+      "questions": [
+        {
+          "type": "write", "long": true, "lang": "en",
+          "q": "Translate to English (Sylvia): Sylvia es una chica. Es una chica normal, pero (but) no es estudiante buena. Es inteligente, pero tiene un problema grande en la escuela (school). Sylvia es una chica desordenada (disorganized). Va a (she goes to) una escuela para (for) chicas. Tiene muchas clases. Primero (first) tiene la clase de español. En la clase de español, Sylvia necesita su diccionario. Pero no lo tiene. Los profes (the teachers) de matemáticas y de español no están contentos (they are not happy).",
+          "model": "Sylvia is a girl. She is a normal girl, but she is not a good student. She is intelligent, but she has a big problem at school. Sylvia is a disorganized girl. She goes to a school for girls. She has many classes. First she has Spanish class. In Spanish class, Sylvia needs her dictionary. But she doesn't have it. The math and Spanish teachers are not happy.",
+          "rubric": ["every sentence translated", "no lo tiene = she doesn't have it", "no están contentos = they are not happy"]
+        },
+        {
+          "type": "write", "long": true, "lang": "en",
+          "q": "Translate to English: Esta persona es Michelle Obama. Ella es abogada. Es la ex-primera dama (first lady) de los Estados Unidos. Es la esposa (wife) de Barack y la madre de Sasha y Malia. Es de los Estados Unidos; es americana. Es alta y morena. Tiene el pelo negro y los ojos castaños. Es muy inteligente y lista. También es simpática y generosa. Es famosa, no es desconocida (unknown). Le gusta ayudar a otros (to help others).",
+          "model": "This person is Michelle Obama. She is a lawyer. She is the former first lady of the United States. She is Barack's wife and the mother of Sasha and Malia. She is from the United States; she is American. She is tall and brunette. She has black hair and brown eyes. She is very intelligent and smart. She is also nice and generous. She is famous, she is not unknown. She likes to help others.",
+          "rubric": ["every sentence translated", "abogada = lawyer, lista = smart, morena = brunette", "le gusta ayudar = she likes to help"]
+        },
+        {
+          "type": "write", "long": true, "lang": "es",
+          "q": "Translate to Spanish: This person is Justin Bieber. He is a singer and musician. He is from Canada (Canadá); he is not American. He is young. He is white and blonde. He has blue eyes and short hair. He is very popular and very rich. He has a lot of money (dinero), a lot of tattoos (tatuajes), and many fans (fanáticos). He is famous. He is also talented. He likes to sing (cantar).",
+          "model": "Esta persona es Justin Bieber. Es cantante y músico. Es de Canadá; no es americano. Es joven. Es blanco y rubio. Tiene los ojos azules y el pelo corto. Es muy popular y muy rico. Tiene mucho dinero, muchos tatuajes y muchos fanáticos. Es famoso. También es talentoso. Le gusta cantar.",
+          "rubric": ["es / tiene used correctly", "adjectives end in -o for a man (rubio, rico, famoso, talentoso)", "mucho dinero, muchos tatuajes (agreement)"]
+        }
+      ]
+    }
+  ]
+}

@@ -60,7 +60,12 @@ function startTest(t) {
   const sections = (t.sections || []).map((s) => el('section', { class: 'card test-section' },
     el('h2', {}, s.title, tr(s.titleEn)),
     s.instructions ? el('p', { class: 'muted small' }, s.instructions) : null,
-    s.bank?.length ? el('div', { class: 'bank' }, el('span', { class: 'muted small' }, 'Word bank:'), s.bank.map((w) => el('span', { class: 'chip', lang: 'es' }, w))) : null,
+    s.text?.length
+      ? el('div', { class: 'reading section-reading', lang: 'es' },
+          s.textTitle ? el('h3', {}, s.textTitle, tr(s.textTitleEn)) : null,
+          s.text.map((p) => el('p', {}, p)))
+      : null,
+    s.bank?.length ? el('div', { class: 'bank' }, el('span', { class: 'muted small' }, s.bankTitle || 'Word bank:'), s.bank.map((w) => el('span', { class: 'chip', lang: 'es' }, w))) : null,
     s.questions.map((q) => renderQuestion(q, ++n))
   ));
 
@@ -101,7 +106,11 @@ function accentBar() {
 }
 
 function qHeader(q, n) {
-  return el('div', { class: 'qtext' }, el('span', { class: 'qnum' }, `${n}.`), el('span', { lang: 'es' }, q.q), q.qEn ? tr(q.qEn) : null);
+  return el('div', { class: 'qtext' + (q.long ? ' long' : '') },
+    el('span', { class: 'qnum' }, `${n}.`),
+    el('span', { lang: q.lang === 'en' ? 'en' : 'es' }, q.q),
+    q.qEn ? tr(q.qEn) : null,
+    q.note ? el('div', { class: 'muted small', style: 'font-weight:400; margin-top:.2rem' }, q.note) : null);
 }
 
 function renderQuestion(q, n) {
@@ -155,12 +164,13 @@ function mcQuestion(q, n, wrap) {
 function tfQuestion(q, n, wrap) {
   const name = `q${n}`;
   const inputs = [];
-  wrap.append(qHeader(q, n), el('div', {}, [['Cierto', 'true'], ['Falso', 'false']].map(([es, en]) => {
+  const [yes, no] = q.labels || ['Cierto', 'Falso'];
+  wrap.append(qHeader(q, n), el('div', { class: 'tf-row' }, [[yes, 'true'], [no, 'false']].map(([es, en]) => {
     const inp = el('input', { type: 'radio', name, value: es });
     inputs.push(inp);
     return el('label', { class: 'choice' }, inp, el('span', { lang: 'es' }, es), tr(en));
   })));
-  const want = q.answer ? 'Cierto' : 'Falso';
+  const want = q.answer ? yes : no;
   return {
     q, n,
     grade() {
@@ -211,7 +221,8 @@ function matchQuestion(q, n, wrap) {
 }
 
 function writeQuestion(q, n, wrap) {
-  const ta = el('textarea', { class: 'test-textarea', lang: 'es', rows: q.rows || 4, placeholder: q.placeholder || 'Write in Spanish' });
+  const lang = q.lang === 'en' ? 'en' : 'es';
+  const ta = el('textarea', { class: 'test-textarea', lang, rows: q.rows || 5, placeholder: q.placeholder || (lang === 'en' ? 'Write it in English' : 'Write it in Spanish') });
   wrap.append(qHeader(q, n), q.rubric?.length ? el('ul', { class: 'muted small', style: 'margin:.25rem 0 .5rem; padding-left:1.25rem' }, q.rubric.map((x) => el('li', {}, x))) : null, ta);
   let selfCheck = null;
   return {
@@ -226,7 +237,7 @@ function writeQuestion(q, n, wrap) {
       selfCheck = el('input', { type: 'checkbox', onChange: () => rescore() });
       wrap.append(el('div', { class: 'result' },
         el('div', { class: 'headline' }, 'Model answer'),
-        el('div', { class: 'answer', lang: 'es' }, q.model),
+        el('div', { class: 'answer model', lang: q.lang === 'en' ? 'en' : 'es' }, q.model),
         q.modelEn ? el('div', { class: 'muted small' }, q.modelEn) : null,
         el('label', { class: 'check mt' }, selfCheck, 'My answer covers the same things (count it as correct)')));
     },

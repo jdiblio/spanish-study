@@ -415,6 +415,12 @@ kbd {
 }
 .accent-bar .accent-keys { justify-content: center; }
 .accent-bar .hint { color: var(--muted); font-size: .75rem; }
+.qtext.long { font-weight: 500; line-height: 1.6; }
+.section-reading { background: var(--surface-2); border-radius: 10px; padding: .9rem 1rem; margin: .5rem 0 .75rem; }
+.section-reading h3 { margin-bottom: .4rem; }
+.section-reading p:last-child { margin-bottom: 0; }
+.tf-row { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+.result .answer.model { font-size: 1rem; font-weight: 500; line-height: 1.6; }
 .checkmark { font-weight: 800; }
 .checkmark.ok { color: var(--green); }
 .checkmark.half { color: var(--amber); }

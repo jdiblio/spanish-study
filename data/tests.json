@@ -1,3 +1,7 @@
 {
-  "tests": []
+  "tests": [
+    { "id": "r1-a", "file": "data/tests/r1-a.json" },
+    { "id": "r1-b", "file": "data/tests/r1-b.json" },
+    { "id": "r1-c", "file": "data/tests/r1-c.json" }
+  ]
 }
