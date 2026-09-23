@@ -2,63 +2,355 @@
   "id": "gramatica-vocab",
   "unit": "u-gramatica",
   "title": "Sustantivos y adjetivos de las reglas 1–5",
+  "titleEn": "Nouns and adjectives from rules 1–5",
   "source": "Slides 16–21 (word bank and examples)",
   "items": [
-    { "es": "un sustantivo", "en": "a noun (a person, place, or thing)" },
-    { "es": "un adjetivo", "en": "an adjective (a word that describes a noun)" },
-    { "es": "una persona", "en": "a person" },
-    { "es": "un lugar", "en": "a place" },
-    { "es": "una cosa", "en": "a thing" },
-    { "es": "una palabra", "en": "a word" },
-    { "es": "el hombre", "en": "the man" },
-    { "es": "el libro", "en": "the book", "example": "Mi libro. Mis libros." },
-    { "es": "la casa", "en": "the house", "example": "La casa bonita." },
-    { "es": "la fruta", "en": "the fruit" },
-    { "es": "el instrumento", "en": "the instrument" },
-    { "es": "la mesa", "en": "the table", "example": "Tu mesa. Tus mesas." },
-    { "es": "el amigo", "en": "the friend", "example": "Su amigo. Sus amigos." },
-    { "es": "el profesor", "en": "the teacher", "example": "Su profesor." },
-    { "es": "el diccionario", "en": "the dictionary", "example": "¿Tienes el diccionario? No, no lo tengo." },
-    { "es": "la calculadora", "en": "the calculator", "example": "La calculadora es nueva." },
-    { "es": "el chico", "alt": ["la chica"], "display": "el chico / la chica", "en": "boy / girl", "example": "El chico guapo. La chica guapa." },
-    { "es": "el alumno", "alt": ["la alumna"], "display": "el alumno / la alumna", "en": "student / pupil" },
-    { "es": "el cuaderno", "en": "the notebook", "example": "¿Tiene María sus cuadernos? Sí, los tiene." },
-    { "es": "el muchacho", "alt": ["la muchacha"], "display": "el muchacho / la muchacha", "en": "boy / girl" },
-    { "es": "el escritorio", "en": "desk" },
-    { "es": "el carro", "alt": ["el coche"], "display": "el carro / el coche", "en": "the car", "example": "El carro es rápido." },
-    { "es": "el maestro", "alt": ["la maestra"], "display": "el maestro / la maestra", "en": "teacher" },
-    { "es": "la cama", "en": "bed" },
-    { "es": "el perro", "en": "the dog", "example": "El perro feo. Los perros feos." },
-    { "es": "la clase", "en": "the class", "example": "En la clase de español." },
-    { "es": "la camisa", "en": "shirt" },
-    { "es": "el gato", "en": "the cat", "example": "Tu gato es extraño." },
-    { "es": "la montaña", "en": "the mountain" },
-    { "es": "el abrigo", "en": "jacket" },
-    { "es": "bueno", "alt": ["buena"], "display": "bueno(a)", "en": "good" },
-    { "es": "feo", "alt": ["fea"], "display": "feo(a)", "en": "ugly", "example": "El perro feo." },
-    { "es": "alto", "alt": ["alta"], "display": "alto(a)", "en": "tall / high" },
-    { "es": "malo", "alt": ["mala"], "display": "malo(a)", "en": "bad / evil" },
-    { "es": "bonito", "alt": ["bonita"], "display": "bonito(a)", "en": "pretty / lovely", "example": "Las casas bonitas." },
-    { "es": "duro", "alt": ["dura"], "display": "duro(a)", "en": "hard / rough" },
-    { "es": "rápido", "alt": ["rápida"], "display": "rápido(a)", "en": "fast / quick", "example": "Los carros son rápidos." },
-    { "es": "loco", "alt": ["loca"], "display": "loco(a)", "en": "crazy" },
-    { "es": "peligroso", "alt": ["peligrosa"], "display": "peligroso(a)", "en": "dangerous" },
-    { "es": "viejo", "alt": ["vieja"], "display": "viejo(a)", "en": "old" },
-    { "es": "nuevo", "alt": ["nueva"], "display": "nuevo(a)", "en": "new", "example": "Las calculadoras son nuevas." },
-    { "es": "caro", "alt": ["cara"], "display": "caro(a)", "en": "expensive" },
-    { "es": "sucio", "alt": ["sucia"], "display": "sucio(a)", "en": "dirty" },
-    { "es": "bajo", "alt": ["baja"], "display": "bajo(a)", "en": "short / low" },
-    { "es": "extraño", "alt": ["extraña"], "display": "extraño(a)", "en": "strange / weird", "example": "Tus gatos son extraños." },
-    { "es": "mi", "alt": ["mis"], "display": "mi / mis", "en": "my", "example": "Necesito mi calculadora." },
-    { "es": "tu", "alt": ["tus"], "display": "tu / tus", "en": "your", "example": "Tu mesa. Tus mesas." },
-    { "es": "su", "alt": ["sus"], "display": "su / sus", "en": "his / her / their", "example": "Ella necesita su diccionario." },
-    { "es": "es", "en": "(s/he / it) is", "example": "La calculadora es nueva." },
-    { "es": "son", "en": "(they / you guys) are", "example": "Los carros son rápidos." },
-    { "es": "necesito", "en": "I need", "example": "En la clase de matemáticas, necesito mi calculadora." },
-    { "es": "necesita", "en": "s/he needs", "example": "En la clase de español, ella necesita su diccionario." },
-    { "es": "¿Tienes…?", "alt": ["tienes"], "en": "Do you have…?", "example": "¿Tienes tu calculadora?" },
-    { "es": "tengo", "en": "I have", "example": "No, no lo tengo." },
-    { "es": "tiene", "en": "s/he has", "example": "¿Tiene José sus computadoras? Sí, las tiene." },
-    { "es": "la clase de matemáticas", "en": "the mathematics class" }
+    {
+      "es": "un sustantivo",
+      "en": "a noun (a person, place, or thing)"
+    },
+    {
+      "es": "un adjetivo",
+      "en": "an adjective (a word that describes a noun)"
+    },
+    {
+      "es": "una persona",
+      "en": "a person"
+    },
+    {
+      "es": "un lugar",
+      "en": "a place"
+    },
+    {
+      "es": "una cosa",
+      "en": "a thing"
+    },
+    {
+      "es": "una palabra",
+      "en": "a word"
+    },
+    {
+      "es": "el hombre",
+      "en": "the man"
+    },
+    {
+      "es": "el libro",
+      "en": "the book",
+      "example": "Mi libro. Mis libros."
+    },
+    {
+      "es": "la casa",
+      "en": "the house",
+      "example": "La casa bonita."
+    },
+    {
+      "es": "la fruta",
+      "en": "the fruit"
+    },
+    {
+      "es": "el instrumento",
+      "en": "the instrument"
+    },
+    {
+      "es": "la mesa",
+      "en": "the table",
+      "example": "Tu mesa. Tus mesas."
+    },
+    {
+      "es": "el amigo",
+      "en": "the friend",
+      "example": "Su amigo. Sus amigos."
+    },
+    {
+      "es": "el profesor",
+      "en": "the teacher",
+      "example": "Su profesor."
+    },
+    {
+      "es": "el diccionario",
+      "en": "the dictionary",
+      "example": "¿Tienes el diccionario? No, no lo tengo."
+    },
+    {
+      "es": "la calculadora",
+      "en": "the calculator",
+      "example": "La calculadora es nueva."
+    },
+    {
+      "es": "el chico",
+      "alt": [
+        "la chica"
+      ],
+      "display": "el chico / la chica",
+      "en": "boy / girl",
+      "example": "El chico guapo. La chica guapa."
+    },
+    {
+      "es": "el alumno",
+      "alt": [
+        "la alumna"
+      ],
+      "display": "el alumno / la alumna",
+      "en": "student / pupil"
+    },
+    {
+      "es": "el cuaderno",
+      "en": "the notebook",
+      "example": "¿Tiene María sus cuadernos? Sí, los tiene."
+    },
+    {
+      "es": "el muchacho",
+      "alt": [
+        "la muchacha"
+      ],
+      "display": "el muchacho / la muchacha",
+      "en": "boy / girl"
+    },
+    {
+      "es": "el escritorio",
+      "en": "desk"
+    },
+    {
+      "es": "el carro",
+      "alt": [
+        "el coche"
+      ],
+      "display": "el carro / el coche",
+      "en": "the car",
+      "example": "El carro es rápido."
+    },
+    {
+      "es": "el maestro",
+      "alt": [
+        "la maestra"
+      ],
+      "display": "el maestro / la maestra",
+      "en": "teacher"
+    },
+    {
+      "es": "la cama",
+      "en": "bed"
+    },
+    {
+      "es": "el perro",
+      "en": "the dog",
+      "example": "El perro feo. Los perros feos."
+    },
+    {
+      "es": "la clase",
+      "en": "the class",
+      "example": "En la clase de español."
+    },
+    {
+      "es": "la camisa",
+      "en": "shirt"
+    },
+    {
+      "es": "el gato",
+      "en": "the cat",
+      "example": "Tu gato es extraño."
+    },
+    {
+      "es": "la montaña",
+      "en": "the mountain"
+    },
+    {
+      "es": "el abrigo",
+      "en": "jacket"
+    },
+    {
+      "es": "bueno",
+      "alt": [
+        "buena"
+      ],
+      "display": "bueno(a)",
+      "en": "good"
+    },
+    {
+      "es": "feo",
+      "alt": [
+        "fea"
+      ],
+      "display": "feo(a)",
+      "en": "ugly",
+      "example": "El perro feo."
+    },
+    {
+      "es": "alto",
+      "alt": [
+        "alta"
+      ],
+      "display": "alto(a)",
+      "en": "tall / high"
+    },
+    {
+      "es": "malo",
+      "alt": [
+        "mala"
+      ],
+      "display": "malo(a)",
+      "en": "bad / evil"
+    },
+    {
+      "es": "bonito",
+      "alt": [
+        "bonita"
+      ],
+      "display": "bonito(a)",
+      "en": "pretty / lovely",
+      "example": "Las casas bonitas."
+    },
+    {
+      "es": "duro",
+      "alt": [
+        "dura"
+      ],
+      "display": "duro(a)",
+      "en": "hard / rough"
+    },
+    {
+      "es": "rápido",
+      "alt": [
+        "rápida"
+      ],
+      "display": "rápido(a)",
+      "en": "fast / quick",
+      "example": "Los carros son rápidos."
+    },
+    {
+      "es": "loco",
+      "alt": [
+        "loca"
+      ],
+      "display": "loco(a)",
+      "en": "crazy"
+    },
+    {
+      "es": "peligroso",
+      "alt": [
+        "peligrosa"
+      ],
+      "display": "peligroso(a)",
+      "en": "dangerous"
+    },
+    {
+      "es": "viejo",
+      "alt": [
+        "vieja"
+      ],
+      "display": "viejo(a)",
+      "en": "old"
+    },
+    {
+      "es": "nuevo",
+      "alt": [
+        "nueva"
+      ],
+      "display": "nuevo(a)",
+      "en": "new",
+      "example": "Las calculadoras son nuevas."
+    },
+    {
+      "es": "caro",
+      "alt": [
+        "cara"
+      ],
+      "display": "caro(a)",
+      "en": "expensive"
+    },
+    {
+      "es": "sucio",
+      "alt": [
+        "sucia"
+      ],
+      "display": "sucio(a)",
+      "en": "dirty"
+    },
+    {
+      "es": "bajo",
+      "alt": [
+        "baja"
+      ],
+      "display": "bajo(a)",
+      "en": "short / low"
+    },
+    {
+      "es": "extraño",
+      "alt": [
+        "extraña"
+      ],
+      "display": "extraño(a)",
+      "en": "strange / weird",
+      "example": "Tus gatos son extraños."
+    },
+    {
+      "es": "mi",
+      "alt": [
+        "mis"
+      ],
+      "display": "mi / mis",
+      "en": "my",
+      "example": "Necesito mi calculadora."
+    },
+    {
+      "es": "tu",
+      "alt": [
+        "tus"
+      ],
+      "display": "tu / tus",
+      "en": "your",
+      "example": "Tu mesa. Tus mesas."
+    },
+    {
+      "es": "su",
+      "alt": [
+        "sus"
+      ],
+      "display": "su / sus",
+      "en": "his / her / their",
+      "example": "Ella necesita su diccionario."
+    },
+    {
+      "es": "es",
+      "en": "(s/he / it) is",
+      "example": "La calculadora es nueva."
+    },
+    {
+      "es": "son",
+      "en": "(they / you guys) are",
+      "example": "Los carros son rápidos."
+    },
+    {
+      "es": "necesito",
+      "en": "I need",
+      "example": "En la clase de matemáticas, necesito mi calculadora."
+    },
+    {
+      "es": "necesita",
+      "en": "s/he needs",
+      "example": "En la clase de español, ella necesita su diccionario."
+    },
+    {
+      "es": "¿Tienes…?",
+      "alt": [
+        "tienes"
+      ],
+      "en": "Do you have…?",
+      "example": "¿Tienes tu calculadora?"
+    },
+    {
+      "es": "tengo",
+      "en": "I have",
+      "example": "No, no lo tengo."
+    },
+    {
+      "es": "tiene",
+      "en": "s/he has",
+      "example": "¿Tiene José sus computadoras? Sí, las tiene."
+    },
+    {
+      "es": "la clase de matemáticas",
+      "en": "the mathematics class"
+    }
   ]
 }

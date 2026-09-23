@@ -2,59 +2,367 @@
   "id": "profesiones",
   "unit": "u-famosos",
   "title": "¿En qué trabaja? Profesiones y nacionalidades",
+  "titleEn": "What does he/she do? Professions and nationalities",
   "source": "Slide 30 and the ¿Quién es? slides 33–63",
   "items": [
-    { "es": "cantante profesional", "en": "professional singer", "example": "Ella es cantante." },
-    { "es": "músico talentoso", "alt": ["música talentosa"], "display": "músico(a) talentoso(a)", "en": "talented musician" },
-    { "es": "deportista profesional", "en": "professional athlete", "example": "Es deportista profesional." },
-    { "es": "jugador bueno", "alt": ["jugadora buena"], "display": "jugador(a) bueno(a)", "en": "good player", "example": "¿Es un jugador muy bueno o es malo?" },
-    { "es": "político", "alt": ["política", "un político", "una política"], "display": "un(a) político(a)", "en": "a politician" },
-    { "es": "abogado", "alt": ["abogada", "un abogado", "una abogada"], "display": "un(a) abogado(a)", "en": "a lawyer / attorney", "example": "Es abogada." },
-    { "es": "juez", "alt": ["jueza", "un juez", "una jueza"], "display": "un(a) juez(a)", "en": "a judge", "example": "Es jueza del Tribunal Supremo." },
-    { "es": "un hombre de negocios", "alt": ["hombre de negocios"], "en": "a businessman", "example": "Es hombre de negocios." },
-    { "es": "una mujer de negocios", "alt": ["mujer de negocios"], "en": "a businesswoman" },
-    { "es": "actor", "alt": ["actriz"], "display": "actor / actriz", "en": "actor / actress", "example": "Es cantante y actriz." },
-    { "es": "científico", "alt": ["científica"], "display": "científico(a)", "en": "scientist" },
-    { "es": "estudiante", "en": "student", "example": "Ella es estudiante." },
-    { "es": "taxista", "en": "taxi driver" },
-    { "es": "carpintero", "alt": ["carpintera"], "display": "carpintero(a)", "en": "carpenter", "example": "¿Es Austin carpintero?" },
-    { "es": "conductor", "alt": ["conductora"], "display": "conductor(a)", "en": "driver" },
-    { "es": "policía", "en": "police officer", "example": "¿Es Austin policía?" },
-    { "es": "pintor", "alt": ["pintora"], "display": "pintor(a)", "en": "painter" },
-    { "es": "espía", "en": "spy", "example": "¿Es Austin espía? ¡Sí!" },
-    { "es": "doctor", "alt": ["doctora"], "display": "doctor(a)", "en": "doctor" },
-    { "es": "artista", "en": "artist" },
-    { "es": "escritor", "alt": ["escritora", "autor", "autora"], "display": "escritor(a) / autor(a)", "en": "writer / author" },
-    { "es": "periodista", "alt": ["reportero", "reportera"], "display": "periodista / reportero(a)", "en": "journalist / reporter" },
-    { "es": "turista", "en": "tourist" },
-    { "es": "el presidente", "alt": ["la presidenta"], "display": "el presidente / la presidenta", "en": "the president", "example": "Es el ex-presidente de los EEUU." },
-    { "es": "la primera dama", "en": "the first lady" },
-    { "es": "el esposo", "alt": ["la esposa"], "display": "el esposo / la esposa", "en": "husband / wife", "example": "Esposa de Barack." },
-    { "es": "juega al baloncesto", "en": "plays basketball", "example": "¿Juega al baloncesto o juega al golf?" },
-    { "es": "juega al tenis", "en": "plays tennis", "example": "Es jugador de tenis profesional." },
-    { "es": "le gusta ganar", "en": "s/he likes to win", "example": "¿Le gusta ganar o le gusta perder?" },
-    { "es": "le gusta perder", "en": "s/he likes to lose" },
-    { "es": "los Estados Unidos", "alt": ["EEUU", "estados unidos"], "display": "los Estados Unidos (EEUU)", "en": "the United States", "example": "Es de los Estados Unidos. Es americana." },
-    { "es": "americano", "alt": ["americana"], "display": "americano(a)", "en": "American" },
-    { "es": "mexicano", "alt": ["mexicana"], "display": "mexicano(a)", "en": "Mexican" },
-    { "es": "Inglaterra", "en": "England", "example": "Es de Inglaterra / el Reino Unido." },
-    { "es": "inglés", "alt": ["inglesa"], "display": "inglés / inglesa", "en": "English", "example": "Es inglés y habla inglés." },
-    { "es": "alemán", "alt": ["alemana"], "display": "alemán / alemana", "en": "German" },
-    { "es": "francés", "alt": ["francesa"], "display": "francés / francesa", "en": "French" },
-    { "es": "español", "alt": ["española"], "display": "español(a)", "en": "Spanish (from Spain)" },
-    { "es": "latino", "alt": ["latina"], "display": "latino(a)", "en": "Latino / Latina" },
-    { "es": "filipino-americano", "alt": ["filipina-americana"], "display": "filipino(a)-americano(a)", "en": "Filipino-American" },
-    { "es": "africano", "alt": ["africana"], "display": "africano(a)", "en": "African" },
-    { "es": "europeo", "alt": ["europea"], "display": "europeo(a)", "en": "European" },
-    { "es": "judío", "alt": ["judía"], "display": "judío(a)", "en": "Jewish" },
-    { "es": "cristiano", "alt": ["cristiana"], "display": "cristiano(a)", "en": "Christian" },
-    { "es": "el estadio", "en": "the stadium", "example": "¿Va al estadio o va a la escuela?" },
-    { "es": "la escuela", "en": "school" },
-    { "es": "el concierto", "en": "concert", "example": "¿Está en un concierto o está en un restaurante?" },
-    { "es": "el restaurante", "en": "restaurant" },
-    { "es": "¿Puede ver?", "en": "Is he able to see?" },
-    { "es": "¿Puede comer?", "en": "Is he able to eat?" },
-    { "es": "nadie sabe", "en": "nobody knows", "example": "¿De dónde es? Nadie sabe." },
-    { "es": "quiere", "en": "s/he wants", "example": "El doctor quiere controlar el mundo." }
+    {
+      "es": "cantante profesional",
+      "en": "professional singer",
+      "example": "Ella es cantante."
+    },
+    {
+      "es": "músico talentoso",
+      "alt": [
+        "música talentosa"
+      ],
+      "display": "músico(a) talentoso(a)",
+      "en": "talented musician"
+    },
+    {
+      "es": "deportista profesional",
+      "en": "professional athlete",
+      "example": "Es deportista profesional."
+    },
+    {
+      "es": "jugador bueno",
+      "alt": [
+        "jugadora buena"
+      ],
+      "display": "jugador(a) bueno(a)",
+      "en": "good player",
+      "example": "¿Es un jugador muy bueno o es malo?"
+    },
+    {
+      "es": "político",
+      "alt": [
+        "política",
+        "un político",
+        "una política"
+      ],
+      "display": "un(a) político(a)",
+      "en": "a politician"
+    },
+    {
+      "es": "abogado",
+      "alt": [
+        "abogada",
+        "un abogado",
+        "una abogada"
+      ],
+      "display": "un(a) abogado(a)",
+      "en": "a lawyer / attorney",
+      "example": "Es abogada."
+    },
+    {
+      "es": "juez",
+      "alt": [
+        "jueza",
+        "un juez",
+        "una jueza"
+      ],
+      "display": "un(a) juez(a)",
+      "en": "a judge",
+      "example": "Es jueza del Tribunal Supremo."
+    },
+    {
+      "es": "un hombre de negocios",
+      "alt": [
+        "hombre de negocios"
+      ],
+      "en": "a businessman",
+      "example": "Es hombre de negocios."
+    },
+    {
+      "es": "una mujer de negocios",
+      "alt": [
+        "mujer de negocios"
+      ],
+      "en": "a businesswoman"
+    },
+    {
+      "es": "actor",
+      "alt": [
+        "actriz"
+      ],
+      "display": "actor / actriz",
+      "en": "actor / actress",
+      "example": "Es cantante y actriz."
+    },
+    {
+      "es": "científico",
+      "alt": [
+        "científica"
+      ],
+      "display": "científico(a)",
+      "en": "scientist"
+    },
+    {
+      "es": "estudiante",
+      "en": "student",
+      "example": "Ella es estudiante."
+    },
+    {
+      "es": "taxista",
+      "en": "taxi driver"
+    },
+    {
+      "es": "carpintero",
+      "alt": [
+        "carpintera"
+      ],
+      "display": "carpintero(a)",
+      "en": "carpenter",
+      "example": "¿Es Austin carpintero?"
+    },
+    {
+      "es": "conductor",
+      "alt": [
+        "conductora"
+      ],
+      "display": "conductor(a)",
+      "en": "driver"
+    },
+    {
+      "es": "policía",
+      "en": "police officer",
+      "example": "¿Es Austin policía?"
+    },
+    {
+      "es": "pintor",
+      "alt": [
+        "pintora"
+      ],
+      "display": "pintor(a)",
+      "en": "painter"
+    },
+    {
+      "es": "espía",
+      "en": "spy",
+      "example": "¿Es Austin espía? ¡Sí!"
+    },
+    {
+      "es": "doctor",
+      "alt": [
+        "doctora"
+      ],
+      "display": "doctor(a)",
+      "en": "doctor"
+    },
+    {
+      "es": "artista",
+      "en": "artist"
+    },
+    {
+      "es": "escritor",
+      "alt": [
+        "escritora",
+        "autor",
+        "autora"
+      ],
+      "display": "escritor(a) / autor(a)",
+      "en": "writer / author"
+    },
+    {
+      "es": "periodista",
+      "alt": [
+        "reportero",
+        "reportera"
+      ],
+      "display": "periodista / reportero(a)",
+      "en": "journalist / reporter"
+    },
+    {
+      "es": "turista",
+      "en": "tourist"
+    },
+    {
+      "es": "el presidente",
+      "alt": [
+        "la presidenta"
+      ],
+      "display": "el presidente / la presidenta",
+      "en": "the president",
+      "example": "Es el ex-presidente de los EEUU."
+    },
+    {
+      "es": "la primera dama",
+      "en": "the first lady"
+    },
+    {
+      "es": "el esposo",
+      "alt": [
+        "la esposa"
+      ],
+      "display": "el esposo / la esposa",
+      "en": "husband / wife",
+      "example": "Esposa de Barack."
+    },
+    {
+      "es": "juega al baloncesto",
+      "en": "plays basketball",
+      "example": "¿Juega al baloncesto o juega al golf?"
+    },
+    {
+      "es": "juega al tenis",
+      "en": "plays tennis",
+      "example": "Es jugador de tenis profesional."
+    },
+    {
+      "es": "le gusta ganar",
+      "en": "s/he likes to win",
+      "example": "¿Le gusta ganar o le gusta perder?"
+    },
+    {
+      "es": "le gusta perder",
+      "en": "s/he likes to lose"
+    },
+    {
+      "es": "los Estados Unidos",
+      "alt": [
+        "EEUU",
+        "estados unidos"
+      ],
+      "display": "los Estados Unidos (EEUU)",
+      "en": "the United States",
+      "example": "Es de los Estados Unidos. Es americana."
+    },
+    {
+      "es": "americano",
+      "alt": [
+        "americana"
+      ],
+      "display": "americano(a)",
+      "en": "American"
+    },
+    {
+      "es": "mexicano",
+      "alt": [
+        "mexicana"
+      ],
+      "display": "mexicano(a)",
+      "en": "Mexican"
+    },
+    {
+      "es": "Inglaterra",
+      "en": "England",
+      "example": "Es de Inglaterra / el Reino Unido."
+    },
+    {
+      "es": "inglés",
+      "alt": [
+        "inglesa"
+      ],
+      "display": "inglés / inglesa",
+      "en": "English",
+      "example": "Es inglés y habla inglés."
+    },
+    {
+      "es": "alemán",
+      "alt": [
+        "alemana"
+      ],
+      "display": "alemán / alemana",
+      "en": "German"
+    },
+    {
+      "es": "francés",
+      "alt": [
+        "francesa"
+      ],
+      "display": "francés / francesa",
+      "en": "French"
+    },
+    {
+      "es": "español",
+      "alt": [
+        "española"
+      ],
+      "display": "español(a)",
+      "en": "Spanish (from Spain)"
+    },
+    {
+      "es": "latino",
+      "alt": [
+        "latina"
+      ],
+      "display": "latino(a)",
+      "en": "Latino / Latina"
+    },
+    {
+      "es": "filipino-americano",
+      "alt": [
+        "filipina-americana"
+      ],
+      "display": "filipino(a)-americano(a)",
+      "en": "Filipino-American"
+    },
+    {
+      "es": "africano",
+      "alt": [
+        "africana"
+      ],
+      "display": "africano(a)",
+      "en": "African"
+    },
+    {
+      "es": "europeo",
+      "alt": [
+        "europea"
+      ],
+      "display": "europeo(a)",
+      "en": "European"
+    },
+    {
+      "es": "judío",
+      "alt": [
+        "judía"
+      ],
+      "display": "judío(a)",
+      "en": "Jewish"
+    },
+    {
+      "es": "cristiano",
+      "alt": [
+        "cristiana"
+      ],
+      "display": "cristiano(a)",
+      "en": "Christian"
+    },
+    {
+      "es": "el estadio",
+      "en": "the stadium",
+      "example": "¿Va al estadio o va a la escuela?"
+    },
+    {
+      "es": "la escuela",
+      "en": "school"
+    },
+    {
+      "es": "el concierto",
+      "en": "concert",
+      "example": "¿Está en un concierto o está en un restaurante?"
+    },
+    {
+      "es": "el restaurante",
+      "en": "restaurant"
+    },
+    {
+      "es": "¿Puede ver?",
+      "en": "Is he able to see?"
+    },
+    {
+      "es": "¿Puede comer?",
+      "en": "Is he able to eat?"
+    },
+    {
+      "es": "nadie sabe",
+      "en": "nobody knows",
+      "example": "¿De dónde es? Nadie sabe."
+    },
+    {
+      "es": "quiere",
+      "en": "s/he wants",
+      "example": "El doctor quiere controlar el mundo."
+    }
   ]
 }

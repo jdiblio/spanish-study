@@ -2,37 +2,142 @@
   "id": "saludos",
   "unit": "u-saludos",
   "title": "Saludos y frases de la clase",
+  "titleEn": "Greetings and class phrases",
   "source": "Slides 5–14",
   "items": [
-    { "es": "Hola", "en": "Hello" },
-    { "es": "Buenos días", "en": "Good morning" },
-    { "es": "Buenas tardes", "en": "Good afternoon" },
-    { "es": "Buenas noches", "en": "Good night / good evening" },
-    { "es": "Adiós", "en": "Goodbye" },
-    { "es": "Hasta luego", "en": "Until later (see you later)" },
-    { "es": "¿Cómo estás?", "en": "How are you?" },
-    { "es": "Estoy muy bien", "en": "I am very well" },
-    { "es": "Gracias", "en": "Thank you" },
-    { "es": "De nada", "en": "You are welcome" },
-    { "es": "¿Cómo te llamas?", "en": "How do you call yourself? (What is your name?)" },
-    { "es": "¿Cuál es tu nombre?", "en": "Which (what) is your name?" },
-    { "es": "Me llamo", "alt": ["mi nombre es"], "display": "Me llamo… / Mi nombre es…", "en": "I call myself / My name is…" },
-    { "es": "Mucho gusto", "en": "Good to meet you" },
-    { "es": "¿Puedo ir al baño?", "en": "Can I go to the bathroom?", "note": "ask politely, at a good moment" },
-    { "es": "Sí, puedes ir", "en": "Yes, you can go" },
-    { "es": "Está bien", "en": "It's fine / OK" },
-    { "es": "Habla en español", "en": "Speak in Spanish" },
-    { "es": "¡No sean molestos, sean estudiosos!", "en": "Don't be annoying, be studious!" },
-    { "es": "¿Preguntas?", "en": "Questions?" },
-    { "es": "el papel", "en": "paper" },
-    { "es": "el cuaderno", "en": "notebook" },
-    { "es": "el lapicero", "en": "pen" },
-    { "es": "el lápiz", "en": "pencil" },
-    { "es": "la carpeta", "en": "binder / folder" },
-    { "es": "la computadora", "alt": ["el ordenador"], "display": "la computadora / el ordenador", "en": "computer" },
-    { "es": "el teléfono", "alt": ["el celular", "el móvil"], "display": "el teléfono / el celular / el móvil", "en": "phone (cell phone)" },
-    { "es": "el asiento", "en": "seat" },
-    { "es": "el baño", "en": "the bathroom" },
-    { "es": "las normas y reglas de la clase", "en": "class norms and rules" }
+    {
+      "es": "Hola",
+      "en": "Hello"
+    },
+    {
+      "es": "Buenos días",
+      "en": "Good morning"
+    },
+    {
+      "es": "Buenas tardes",
+      "en": "Good afternoon"
+    },
+    {
+      "es": "Buenas noches",
+      "en": "Good night / good evening"
+    },
+    {
+      "es": "Adiós",
+      "en": "Goodbye"
+    },
+    {
+      "es": "Hasta luego",
+      "en": "Until later (see you later)"
+    },
+    {
+      "es": "¿Cómo estás?",
+      "en": "How are you?"
+    },
+    {
+      "es": "Estoy muy bien",
+      "en": "I am very well"
+    },
+    {
+      "es": "Gracias",
+      "en": "Thank you"
+    },
+    {
+      "es": "De nada",
+      "en": "You are welcome"
+    },
+    {
+      "es": "¿Cómo te llamas?",
+      "en": "How do you call yourself? (What is your name?)"
+    },
+    {
+      "es": "¿Cuál es tu nombre?",
+      "en": "Which (what) is your name?"
+    },
+    {
+      "es": "Me llamo",
+      "alt": [
+        "mi nombre es"
+      ],
+      "display": "Me llamo… / Mi nombre es…",
+      "en": "I call myself / My name is…"
+    },
+    {
+      "es": "Mucho gusto",
+      "en": "Good to meet you"
+    },
+    {
+      "es": "¿Puedo ir al baño?",
+      "en": "Can I go to the bathroom?",
+      "note": "ask politely, at a good moment"
+    },
+    {
+      "es": "Sí, puedes ir",
+      "en": "Yes, you can go"
+    },
+    {
+      "es": "Está bien",
+      "en": "It's fine / OK"
+    },
+    {
+      "es": "Habla en español",
+      "en": "Speak in Spanish"
+    },
+    {
+      "es": "¡No sean molestos, sean estudiosos!",
+      "en": "Don't be annoying, be studious!"
+    },
+    {
+      "es": "¿Preguntas?",
+      "en": "Questions?"
+    },
+    {
+      "es": "el papel",
+      "en": "paper"
+    },
+    {
+      "es": "el cuaderno",
+      "en": "notebook"
+    },
+    {
+      "es": "el lapicero",
+      "en": "pen"
+    },
+    {
+      "es": "el lápiz",
+      "en": "pencil"
+    },
+    {
+      "es": "la carpeta",
+      "en": "binder / folder"
+    },
+    {
+      "es": "la computadora",
+      "alt": [
+        "el ordenador"
+      ],
+      "display": "la computadora / el ordenador",
+      "en": "computer"
+    },
+    {
+      "es": "el teléfono",
+      "alt": [
+        "el celular",
+        "el móvil"
+      ],
+      "display": "el teléfono / el celular / el móvil",
+      "en": "phone (cell phone)"
+    },
+    {
+      "es": "el asiento",
+      "en": "seat"
+    },
+    {
+      "es": "el baño",
+      "en": "the bathroom"
+    },
+    {
+      "es": "las normas y reglas de la clase",
+      "en": "class norms and rules"
+    }
   ]
 }

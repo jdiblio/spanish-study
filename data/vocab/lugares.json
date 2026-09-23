@@ -2,27 +2,89 @@
   "id": "lugares",
   "unit": "u-todo-sobre-mi",
   "title": "Mi lugar feliz: lugares",
+  "titleEn": "My happy place: places",
   "source": "Todo sobre mí worksheet (Google Doc)",
   "items": [
-    { "es": "en mi cama", "en": "in my bed" },
-    { "es": "con mis amigos", "en": "with my friends" },
-    { "es": "en las montañas", "en": "in the mountains" },
-    { "es": "en la playa", "en": "at the beach", "example": "Mi lugar feliz es la playa de Limantour." },
-    { "es": "con mi familia", "en": "with my family" },
-    { "es": "en un concierto", "en": "at a concert" },
-    { "es": "en mi dormitorio", "en": "in my room" },
-    { "es": "en mi café favorito", "en": "at my favorite coffee shop" },
-    { "es": "en un partido de deportes", "en": "at a sports game" },
-    { "es": "en la biblioteca", "en": "in the library" },
-    { "es": "en un parque", "en": "in a park" },
-    { "es": "en el cine", "en": "at the movies" },
-    { "es": "en mi bicicleta", "en": "on my bike" },
-    { "es": "jugando videojuegos", "en": "playing video games" },
-    { "es": "con mi mascota", "en": "with my pet" },
-    { "es": "en mi celular", "en": "on my phone" },
-    { "es": "en la cocina", "en": "in the kitchen" },
-    { "es": "en el coche", "en": "in the car" },
-    { "es": "escuchando música", "en": "listening to music" },
-    { "es": "en el gimnasio", "en": "at the gym" }
+    {
+      "es": "en mi cama",
+      "en": "in my bed"
+    },
+    {
+      "es": "con mis amigos",
+      "en": "with my friends"
+    },
+    {
+      "es": "en las montañas",
+      "en": "in the mountains"
+    },
+    {
+      "es": "en la playa",
+      "en": "at the beach",
+      "example": "Mi lugar feliz es la playa de Limantour."
+    },
+    {
+      "es": "con mi familia",
+      "en": "with my family"
+    },
+    {
+      "es": "en un concierto",
+      "en": "at a concert"
+    },
+    {
+      "es": "en mi dormitorio",
+      "en": "in my room"
+    },
+    {
+      "es": "en mi café favorito",
+      "en": "at my favorite coffee shop"
+    },
+    {
+      "es": "en un partido de deportes",
+      "en": "at a sports game"
+    },
+    {
+      "es": "en la biblioteca",
+      "en": "in the library"
+    },
+    {
+      "es": "en un parque",
+      "en": "in a park"
+    },
+    {
+      "es": "en el cine",
+      "en": "at the movies"
+    },
+    {
+      "es": "en mi bicicleta",
+      "en": "on my bike"
+    },
+    {
+      "es": "jugando videojuegos",
+      "en": "playing video games"
+    },
+    {
+      "es": "con mi mascota",
+      "en": "with my pet"
+    },
+    {
+      "es": "en mi celular",
+      "en": "on my phone"
+    },
+    {
+      "es": "en la cocina",
+      "en": "in the kitchen"
+    },
+    {
+      "es": "en el coche",
+      "en": "in the car"
+    },
+    {
+      "es": "escuchando música",
+      "en": "listening to music"
+    },
+    {
+      "es": "en el gimnasio",
+      "en": "at the gym"
+    }
   ]
 }

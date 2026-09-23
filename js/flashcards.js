@@ -1,5 +1,5 @@
 // Vocabulary page: deck picker, flashcard session (review or practice), summary.
-import { $, el, kids, shuffle, initPage, toast, humanInterval, plural } from './app.js';
+import { $, el, kids, tr, shuffle, initPage, toast, humanInterval, plural } from './app.js';
 import { getState, save, recordReview, newIntroducedToday } from './storage.js';
 import { Rating, schedule, previewIntervals } from './srs.js';
 import { speak, canSpeak } from './audio.js';
@@ -78,7 +78,7 @@ function renderSetup() {
     const cb = el('input', { type: 'checkbox', checked: true, onChange: () => { cb.checked ? selected.add(d.id) : selected.delete(d.id); refreshMode(); } });
     return el('label', { class: 'deck-row' },
       cb,
-      el('span', { class: 'title' }, d.title),
+      el('span', { class: 'title' }, d.title, tr(d.titleEn)),
       s.due ? el('span', { class: 'chip accent' }, `${s.due} due`) : null,
       s.newWords ? el('span', { class: 'chip blue' }, `${s.newWords} new`) : null,
       s.mature ? el('span', { class: 'chip green' }, `${s.mature} known`) : null,
@@ -342,7 +342,7 @@ function renderSummary() {
   const n = seen.size;
   const pct = n ? Math.round((correct / n) * 100) : 0;
   app.replaceChildren(
-    el('h1', {}, '¡Muy bien!'),
+    el('h1', {}, '¡Muy bien!', tr('Very good!')),
     el('div', { class: 'card' },
       el('div', { class: 'stats' },
         el('div', { class: 'stat' }, el('div', { class: 'num' }, n), el('div', { class: 'label' }, 'cards')),

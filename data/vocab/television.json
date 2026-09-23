@@ -2,53 +2,243 @@
   "id": "television",
   "unit": "u-lecturas",
   "title": "Lectura: La televisión es muy importante",
+  "titleEn": "Reading: Television is very important",
   "source": "Slides 52–53, plus words from the Austin Powers slides 61–65",
   "items": [
-    { "es": "estudiosa", "alt": ["estudioso"], "en": "studious", "example": "¿Quién es estudiosa?" },
-    { "es": "estudia", "en": "studies" },
-    { "es": "la escuela", "alt": ["escuela"], "en": "school" },
-    { "es": "esta noche", "en": "tonight" },
-    { "es": "la lección", "en": "the lesson" },
-    { "es": "la sala", "en": "the living room" },
-    { "es": "con", "en": "with" },
-    { "es": "el papel", "en": "the paper" },
-    { "es": "de vocabulario", "en": "of vocabulary", "example": "El papel de vocabulario." },
-    { "es": "su lápiz", "en": "her pencil" },
-    { "es": "las palabras", "alt": ["palabras"], "en": "words" },
-    { "es": "las frases", "alt": ["frases"], "en": "phrases" },
-    { "es": "el cuaderno", "alt": ["cuaderno"], "en": "notebook" },
-    { "es": "lee", "en": "reads", "example": "¿Qué lee el padre?" },
-    { "es": "el periódico", "en": "newspaper" },
-    { "es": "escucha", "en": "listens (to)", "example": "¿Qué escucha la mamá?" },
-    { "es": "la cocina", "en": "the kitchen" },
-    { "es": "entra", "en": "enters" },
-    { "es": "pone", "en": "puts (turns on)", "example": "¿Qué pone el hermano? ¿La radio o la televisión?" },
-    { "es": "hay", "en": "there is / there are" },
-    { "es": "ay, no", "en": "oh, no" },
-    { "es": "necesito", "en": "I need" },
-    { "es": "estudiar", "en": "to study" },
-    { "es": "mañana", "en": "tomorrow" },
-    { "es": "por favor", "en": "please" },
-    { "es": "muy fácil", "en": "very easy" },
-    { "es": "quiero", "en": "I want" },
-    { "es": "mirar", "en": "to watch / look at" },
-    { "es": "también", "en": "also / too" },
-    { "es": "y ahora", "en": "and now" },
-    { "es": "el amor y la pasión", "en": "love and passion" },
-    { "es": "el programa", "alt": ["programa"], "en": "program", "example": "¿Cuál es el programa favorito de Pepita?" },
-    { "es": "favorito", "alt": ["favorita"], "display": "favorito(a)", "en": "favorite" },
-    { "es": "es posible", "en": "it's possible" },
-    { "es": "quiere hacer", "en": "wants to do", "example": "¿Qué quiere hacer Pepita? ¿Por qué?" },
-    { "es": "ahora", "en": "now", "example": "¿Qué quiere hacer Pepita ahora?" },
-    { "es": "el hermano", "alt": ["la hermana"], "display": "el hermano / la hermana", "en": "brother / sister", "example": "¿Cómo se llama el hermano?" },
-    { "es": "la madre", "alt": ["la mamá"], "display": "la madre / la mamá", "en": "mother / mom", "example": "¿Dónde está la madre?" },
-    { "es": "el padre", "alt": ["el papá"], "display": "el padre / el papá", "en": "father / dad", "example": "¿Qué lee el padre?" },
-    { "es": "vive en", "en": "lives in", "example": "Austin vive en Londres, Inglaterra." },
-    { "es": "el apartamento", "en": "apartment", "example": "¡Vive en un apartamento muy chévere!" },
-    { "es": "chévere", "en": "groovy / cool" },
-    { "es": "el enemigo", "en": "enemy", "example": "Austin tiene un enemigo. Su enemigo se llama Doctor Malo." },
-    { "es": "no le gusta", "en": "s/he doesn't like", "example": "A él no le gusta Austin Powers." },
-    { "es": "controlar el mundo", "en": "to control the world", "example": "El doctor quiere controlar el mundo." },
-    { "es": "la luna", "en": "the moon", "example": "Esta es la luna." }
+    {
+      "es": "estudiosa",
+      "alt": [
+        "estudioso"
+      ],
+      "en": "studious",
+      "example": "¿Quién es estudiosa?"
+    },
+    {
+      "es": "estudia",
+      "en": "studies"
+    },
+    {
+      "es": "la escuela",
+      "alt": [
+        "escuela"
+      ],
+      "en": "school"
+    },
+    {
+      "es": "esta noche",
+      "en": "tonight"
+    },
+    {
+      "es": "la lección",
+      "en": "the lesson"
+    },
+    {
+      "es": "la sala",
+      "en": "the living room"
+    },
+    {
+      "es": "con",
+      "en": "with"
+    },
+    {
+      "es": "el papel",
+      "en": "the paper"
+    },
+    {
+      "es": "de vocabulario",
+      "en": "of vocabulary",
+      "example": "El papel de vocabulario."
+    },
+    {
+      "es": "su lápiz",
+      "en": "her pencil"
+    },
+    {
+      "es": "las palabras",
+      "alt": [
+        "palabras"
+      ],
+      "en": "words"
+    },
+    {
+      "es": "las frases",
+      "alt": [
+        "frases"
+      ],
+      "en": "phrases"
+    },
+    {
+      "es": "el cuaderno",
+      "alt": [
+        "cuaderno"
+      ],
+      "en": "notebook"
+    },
+    {
+      "es": "lee",
+      "en": "reads",
+      "example": "¿Qué lee el padre?"
+    },
+    {
+      "es": "el periódico",
+      "en": "newspaper"
+    },
+    {
+      "es": "escucha",
+      "en": "listens (to)",
+      "example": "¿Qué escucha la mamá?"
+    },
+    {
+      "es": "la cocina",
+      "en": "the kitchen"
+    },
+    {
+      "es": "entra",
+      "en": "enters"
+    },
+    {
+      "es": "pone",
+      "en": "puts (turns on)",
+      "example": "¿Qué pone el hermano? ¿La radio o la televisión?"
+    },
+    {
+      "es": "hay",
+      "en": "there is / there are"
+    },
+    {
+      "es": "ay, no",
+      "en": "oh, no"
+    },
+    {
+      "es": "necesito",
+      "en": "I need"
+    },
+    {
+      "es": "estudiar",
+      "en": "to study"
+    },
+    {
+      "es": "mañana",
+      "en": "tomorrow"
+    },
+    {
+      "es": "por favor",
+      "en": "please"
+    },
+    {
+      "es": "muy fácil",
+      "en": "very easy"
+    },
+    {
+      "es": "quiero",
+      "en": "I want"
+    },
+    {
+      "es": "mirar",
+      "en": "to watch / look at"
+    },
+    {
+      "es": "también",
+      "en": "also / too"
+    },
+    {
+      "es": "y ahora",
+      "en": "and now"
+    },
+    {
+      "es": "el amor y la pasión",
+      "en": "love and passion"
+    },
+    {
+      "es": "el programa",
+      "alt": [
+        "programa"
+      ],
+      "en": "program",
+      "example": "¿Cuál es el programa favorito de Pepita?"
+    },
+    {
+      "es": "favorito",
+      "alt": [
+        "favorita"
+      ],
+      "display": "favorito(a)",
+      "en": "favorite"
+    },
+    {
+      "es": "es posible",
+      "en": "it's possible"
+    },
+    {
+      "es": "quiere hacer",
+      "en": "wants to do",
+      "example": "¿Qué quiere hacer Pepita? ¿Por qué?"
+    },
+    {
+      "es": "ahora",
+      "en": "now",
+      "example": "¿Qué quiere hacer Pepita ahora?"
+    },
+    {
+      "es": "el hermano",
+      "alt": [
+        "la hermana"
+      ],
+      "display": "el hermano / la hermana",
+      "en": "brother / sister",
+      "example": "¿Cómo se llama el hermano?"
+    },
+    {
+      "es": "la madre",
+      "alt": [
+        "la mamá"
+      ],
+      "display": "la madre / la mamá",
+      "en": "mother / mom",
+      "example": "¿Dónde está la madre?"
+    },
+    {
+      "es": "el padre",
+      "alt": [
+        "el papá"
+      ],
+      "display": "el padre / el papá",
+      "en": "father / dad",
+      "example": "¿Qué lee el padre?"
+    },
+    {
+      "es": "vive en",
+      "en": "lives in",
+      "example": "Austin vive en Londres, Inglaterra."
+    },
+    {
+      "es": "el apartamento",
+      "en": "apartment",
+      "example": "¡Vive en un apartamento muy chévere!"
+    },
+    {
+      "es": "chévere",
+      "en": "groovy / cool"
+    },
+    {
+      "es": "el enemigo",
+      "en": "enemy",
+      "example": "Austin tiene un enemigo. Su enemigo se llama Doctor Malo."
+    },
+    {
+      "es": "no le gusta",
+      "en": "s/he doesn't like",
+      "example": "A él no le gusta Austin Powers."
+    },
+    {
+      "es": "controlar el mundo",
+      "en": "to control the world",
+      "example": "El doctor quiere controlar el mundo."
+    },
+    {
+      "es": "la luna",
+      "en": "the moon",
+      "example": "Esta es la luna."
+    }
   ]
 }

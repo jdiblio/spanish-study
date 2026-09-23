@@ -1,6 +1,7 @@
 {
   "id": "guapo-frases",
   "title": "Guapo: frases de la canción",
+  "titleEn": "Guapo: sentences from the song",
   "source": "Guapo worksheet (Después A and Oraciones revueltas)",
   "summary": "Write the sentences from the song. This is the translation exercise from the worksheet, in reverse.",
   "instruction": "Write it in Spanish (from the song)",
@@ -9,24 +10,78 @@
     "Accents count. Use the accent keys under the box."
   ],
   "examples": [
-    { "es": "Me llamo Víctor.", "en": "My name is Víctor." },
-    { "es": "Hay mujeres a mi lado.", "en": "There are women at my side." }
+    {
+      "es": "Me llamo Víctor.",
+      "en": "My name is Víctor."
+    },
+    {
+      "es": "Hay mujeres a mi lado.",
+      "en": "There are women at my side."
+    }
   ],
   "items": [
-    { "prompt": "My name is Víctor.", "answer": "Me llamo Víctor" },
-    { "prompt": "I have green eyes and brown hair.", "answer": "Tengo ojos verdes y pelo castaño" },
-    { "prompt": "There are women at my side.", "answer": "Hay mujeres a mi lado" },
-    { "prompt": "There are no women at your side.", "answer": "No hay mujeres a tu lado" },
-    { "prompt": "You are not good-looking; you are ugly.", "answer": "Tú no eres guapo; eres feo" },
-    { "prompt": "You wear glasses and you have braces.", "answer": "Llevas anteojos y tienes aparato" },
-    { "prompt": "It is not necessary to be funny.", "answer": "No es necesario ser gracioso" },
-    { "prompt": "Sometimes I think that I am too good-looking.", "answer": "A veces pienso que soy demasiado guapo" },
-    { "prompt": "Personality? He doesn't have it.", "answer": "¿Personalidad? Él no la tiene" },
-    { "prompt": "I don't need to read to go to the movies with a woman.", "answer": "Yo no necesito leer para ir al cine con una mujer", "alt": ["No necesito leer para ir al cine con una mujer"] },
-    { "prompt": "I am tall. I am thin.", "answer": "Soy alto. Soy delgado" },
-    { "prompt": "Poor friend, you are not tall.", "answer": "Pobre amigo, tú no eres alto" },
-    { "prompt": "He has green eyes and brown hair.", "answer": "Tiene ojos verdes y pelo castaño" },
-    { "prompt": "The man is tall and ugly.", "answer": "El hombre es alto y feo" },
-    { "prompt": "The woman is short and thin.", "answer": "La mujer es baja y delgada" }
+    {
+      "prompt": "My name is Víctor.",
+      "answer": "Me llamo Víctor"
+    },
+    {
+      "prompt": "I have green eyes and brown hair.",
+      "answer": "Tengo ojos verdes y pelo castaño"
+    },
+    {
+      "prompt": "There are women at my side.",
+      "answer": "Hay mujeres a mi lado"
+    },
+    {
+      "prompt": "There are no women at your side.",
+      "answer": "No hay mujeres a tu lado"
+    },
+    {
+      "prompt": "You are not good-looking; you are ugly.",
+      "answer": "Tú no eres guapo; eres feo"
+    },
+    {
+      "prompt": "You wear glasses and you have braces.",
+      "answer": "Llevas anteojos y tienes aparato"
+    },
+    {
+      "prompt": "It is not necessary to be funny.",
+      "answer": "No es necesario ser gracioso"
+    },
+    {
+      "prompt": "Sometimes I think that I am too good-looking.",
+      "answer": "A veces pienso que soy demasiado guapo"
+    },
+    {
+      "prompt": "Personality? He doesn't have it.",
+      "answer": "¿Personalidad? Él no la tiene"
+    },
+    {
+      "prompt": "I don't need to read to go to the movies with a woman.",
+      "answer": "Yo no necesito leer para ir al cine con una mujer",
+      "alt": [
+        "No necesito leer para ir al cine con una mujer"
+      ]
+    },
+    {
+      "prompt": "I am tall. I am thin.",
+      "answer": "Soy alto. Soy delgado"
+    },
+    {
+      "prompt": "Poor friend, you are not tall.",
+      "answer": "Pobre amigo, tú no eres alto"
+    },
+    {
+      "prompt": "He has green eyes and brown hair.",
+      "answer": "Tiene ojos verdes y pelo castaño"
+    },
+    {
+      "prompt": "The man is tall and ugly.",
+      "answer": "El hombre es alto y feo"
+    },
+    {
+      "prompt": "The woman is short and thin.",
+      "answer": "La mujer es baja y delgada"
+    }
   ]
 }

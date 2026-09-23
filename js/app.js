@@ -25,6 +25,11 @@ export function el(tag, attrs = {}, ...children) {
 /** Drop null/false children so append/replaceChildren never print "null". */
 export const kids = (...c) => c.flat(Infinity).filter((x) => x != null && x !== false);
 
+/** Small gray English translation to place right after a Spanish title or label. */
+export function tr(en) {
+  return en ? el('span', { class: 'tr', lang: 'en' }, en) : null;
+}
+
 export async function loadJSON(path) {
   const res = await fetch(path, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Could not load ${path} (${res.status})`);
@@ -90,14 +95,14 @@ export function plural(n, one, many = one + 's') {
 
 // ---------- Navigation ----------
 const NAV = [
-  ['index.html', 'Hoy', 'hoy'],
-  ['vocab.html', 'Vocabulario', 'vocab'],
-  ['verbs.html', 'Verbos', 'verbs'],
-  ['grammar.html', 'Gramática', 'grammar'],
-  ['listen.html', 'Escuchar', 'listen'],
-  ['review.html', 'Repaso', 'review'],
-  ['class.html', 'Clase', 'class'],
-  ['progress.html', 'Progreso', 'progress'],
+  ['index.html', 'Hoy', 'Today', 'hoy'],
+  ['vocab.html', 'Vocabulario', 'Vocabulary', 'vocab'],
+  ['verbs.html', 'Verbos', 'Verbs', 'verbs'],
+  ['grammar.html', 'Gramática', 'Grammar', 'grammar'],
+  ['listen.html', 'Escuchar', 'Listen & read', 'listen'],
+  ['review.html', 'Repaso', 'Practice tests', 'review'],
+  ['class.html', 'Clase', 'Class', 'class'],
+  ['progress.html', 'Progreso', 'Progress', 'progress'],
 ];
 
 export function initPage(active) {
@@ -108,14 +113,15 @@ export function initPage(active) {
     el('div', { class: 'container header-inner' },
       el('a', { class: 'brand', href: 'index.html' },
         el('span', { class: 'brand-icon', 'aria-hidden': 'true' }, '📚'),
-        'Estudio de Español'),
+        'Estudio de Español',
+        el('small', { class: 'brand-en', lang: 'en' }, 'Spanish study')),
       el('nav', { class: 'nav', 'aria-label': 'Sections' },
-        NAV.map(([href, label, key]) =>
+        NAV.map(([href, label, en, key]) =>
           el('a', {
             href,
             class: 'nav-link' + (key === active ? ' active' : ''),
             'aria-current': key === active ? 'page' : null,
-          }, label)))
+          }, el('span', { class: 'nav-es' }, label), el('small', { class: 'nav-en', lang: 'en' }, en))))
     )
   );
 }

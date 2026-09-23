@@ -1,5 +1,5 @@
 // Class resource cards (slides, assignments, songs, videos, links) shared by the Clase and Escuchar pages.
-import { el, kids, daysUntil, formatDate, relativeDays } from './app.js';
+import { el, kids, tr, daysUntil, formatDate, relativeDays } from './app.js';
 
 export const TYPES = {
   slides: { icon: '📊', label: 'Slides', open: 'Open in Google Slides' },
@@ -51,7 +51,7 @@ export function resourceCard(r) {
   if (r.text?.length || r.questions?.length) {
     actions.push(el('button', { class: 'btn btn-sm btn-primary', onClick: () => toggleViewer(() => el('div', { class: 'card reading' },
       r.text?.length ? el('div', { lang: 'es' }, r.text.map((p) => el('p', {}, p))) : null,
-      r.questions?.length ? el('div', {}, el('h3', {}, 'Preguntas'), el('ol', { lang: 'es' }, r.questions.map((q) => el('li', {}, q)))) : null
+      r.questions?.length ? el('div', {}, el('h3', {}, 'Preguntas', tr('Questions')), el('ol', { lang: 'es' }, r.questions.map((q) => el('li', {}, q)))) : null
     )) }, 'Read'));
   }
   if (r.file) {
@@ -86,7 +86,7 @@ export function resourceCard(r) {
     el('div', { class: 'resource-head' },
       el('span', { class: 'resource-icon', 'aria-hidden': 'true' }, t.icon),
       el('div', {},
-        el('div', { class: 'resource-title' }, r.title),
+        el('div', { class: 'resource-title' }, r.title, tr(r.titleEn)),
         el('div', { class: 'resource-meta' },
           el('span', {}, t.label),
           r.date ? el('span', {}, formatDate(r.date)) : null,

@@ -2,56 +2,301 @@
   "id": "guapo",
   "unit": "u-guapo",
   "title": "Señor Wooly: Guapo",
+  "titleEn": "Señor Wooly: Guapo (good-looking)",
   "source": "Guapo worksheet (word box, cloze word bank, translation sentences) and slides 26–29",
   "items": [
-    { "es": "guapo", "alt": ["guapa"], "display": "guapo/a", "en": "good-looking", "example": "Soy guapo, soy muy muy guapo." },
-    { "es": "feo", "alt": ["fea"], "display": "feo/a", "en": "ugly", "example": "Tú no eres guapo; eres feo." },
-    { "es": "delgado", "alt": ["delgada"], "display": "delgado/a", "en": "thin", "example": "Soy alto. Soy delgado." },
-    { "es": "alto", "alt": ["alta"], "display": "alto/a", "en": "tall", "example": "Pobre amigo, tú no eres alto." },
-    { "es": "castaño", "en": "brown", "example": "Tengo ojos verdes y pelo castaño." },
-    { "es": "canoso", "en": "grey (hair)", "example": "Con tu pelo canoso y ojos pequeños." },
-    { "es": "pequeño", "alt": ["pequeña", "pequeños"], "display": "pequeño/a", "en": "little", "example": "Ojos pequeños." },
-    { "es": "grande", "en": "big", "example": "Tiene pelo canoso y ojos grandes." },
-    { "es": "verde", "alt": ["verdes"], "en": "green", "example": "Tiene ojos verdes y pelo castaño." },
-    { "es": "la mujer", "alt": ["mujer"], "en": "woman", "example": "Hay mujeres a mi lado." },
-    { "es": "el ojo", "alt": ["ojo", "los ojos"], "en": "eye" },
-    { "es": "el pelo", "alt": ["pelo"], "en": "hair", "example": "El pelo verde." },
-    { "es": "los anteojos", "alt": ["anteojos"], "en": "glasses", "example": "Llevas anteojos y tienes aparato." },
-    { "es": "los aparatos", "alt": ["aparato", "el aparato"], "en": "braces", "example": "Tienes aparato." },
-    { "es": "me llamo", "en": "my name is (I call myself)", "example": "Me llamo Víctor." },
-    { "es": "soy", "en": "I am", "example": "Soy muy, muy, muy guapo." },
-    { "es": "tengo", "en": "I have", "example": "Tengo ojos verdes y pelo castaño." },
-    { "es": "tiene", "en": "s/he has", "example": "Tiene ojos verdes y pelo castaño." },
-    { "es": "hay", "en": "there is / there are", "example": "Hay mujeres a mi lado." },
-    { "es": "no hay", "en": "there isn't / there aren't", "example": "No hay mujeres a tu lado." },
-    { "es": "a mi lado", "en": "at my side", "example": "Hay mujeres a mi lado." },
-    { "es": "llevas", "en": "you wear", "example": "Llevas anteojos." },
-    { "es": "lleva", "en": "s/he wears", "example": "El otro hombre lleva anteojos." },
-    { "es": "para", "en": "for / in order to", "example": "Yo no necesito leer para ir al cine con una mujer." },
-    { "es": "trabajar", "en": "to work", "example": "Yo no necesito trabajar." },
-    { "es": "leer", "en": "to read", "example": "Yo no necesito leer." },
-    { "es": "ayudar", "en": "to help", "example": "En casa no necesito ayudar." },
-    { "es": "en casa", "en": "at home" },
-    { "es": "ir al cine", "en": "to go to the movies", "example": "Para ir al cine con una mujer." },
-    { "es": "necesito", "en": "I need", "example": "Yo no necesito leer." },
-    { "es": "necesario", "en": "necessary", "example": "No es necesario ser gracioso." },
-    { "es": "gracioso", "alt": ["graciosa"], "display": "gracioso/a", "en": "funny", "example": "No es necesario ser gracioso." },
-    { "es": "verdad", "en": "true", "example": "Sí, es verdad, demasiado guapo." },
-    { "es": "demasiado", "en": "too (much)", "example": "A veces pienso que soy demasiado guapo." },
-    { "es": "a veces", "en": "sometimes", "example": "A veces pienso que soy demasiado guapo." },
-    { "es": "pienso", "en": "I think", "example": "A veces pienso que soy demasiado guapo." },
-    { "es": "piensa", "en": "s/he thinks", "example": "Víctor piensa que anteojos son feos." },
-    { "es": "la personalidad", "alt": ["personalidad"], "en": "personality", "example": "¿Personalidad? Él no la tiene." },
-    { "es": "él no la tiene", "en": "he doesn't have it", "example": "¿Personalidad? Él no la tiene." },
-    { "es": "pobre amigo", "en": "poor friend", "example": "Pobre amigo, tú no eres alto." },
-    { "es": "dicen", "en": "they say", "example": "Las mujeres dicen que es muy guapo." },
-    { "es": "ve películas", "en": "watches movies", "example": "Víctor ve películas con mujeres, no lee libros." },
-    { "es": "ni… ni", "alt": ["ni ni"], "en": "neither… nor", "example": "Víctor no es ni generoso ni simpático." },
-    { "es": "el otro hombre", "en": "the other man", "example": "El otro hombre no tiene mucho pelo." },
-    { "es": "la cuenta", "en": "the bill", "example": "Víctor no paga la cuenta." },
-    { "es": "paga", "en": "s/he pays", "example": "¿Quién paga la cuenta en el restaurante?" },
-    { "es": "le da", "en": "gives (to him/her)", "example": "Víctor le da su foto a la mesera." },
-    { "es": "la mesera", "en": "waitress", "example": "La mesera está contenta." },
-    { "es": "la foto", "en": "photo" }
+    {
+      "es": "guapo",
+      "alt": [
+        "guapa"
+      ],
+      "display": "guapo/a",
+      "en": "good-looking",
+      "example": "Soy guapo, soy muy muy guapo."
+    },
+    {
+      "es": "feo",
+      "alt": [
+        "fea"
+      ],
+      "display": "feo/a",
+      "en": "ugly",
+      "example": "Tú no eres guapo; eres feo."
+    },
+    {
+      "es": "delgado",
+      "alt": [
+        "delgada"
+      ],
+      "display": "delgado/a",
+      "en": "thin",
+      "example": "Soy alto. Soy delgado."
+    },
+    {
+      "es": "alto",
+      "alt": [
+        "alta"
+      ],
+      "display": "alto/a",
+      "en": "tall",
+      "example": "Pobre amigo, tú no eres alto."
+    },
+    {
+      "es": "castaño",
+      "en": "brown",
+      "example": "Tengo ojos verdes y pelo castaño."
+    },
+    {
+      "es": "canoso",
+      "en": "grey (hair)",
+      "example": "Con tu pelo canoso y ojos pequeños."
+    },
+    {
+      "es": "pequeño",
+      "alt": [
+        "pequeña",
+        "pequeños"
+      ],
+      "display": "pequeño/a",
+      "en": "little",
+      "example": "Ojos pequeños."
+    },
+    {
+      "es": "grande",
+      "en": "big",
+      "example": "Tiene pelo canoso y ojos grandes."
+    },
+    {
+      "es": "verde",
+      "alt": [
+        "verdes"
+      ],
+      "en": "green",
+      "example": "Tiene ojos verdes y pelo castaño."
+    },
+    {
+      "es": "la mujer",
+      "alt": [
+        "mujer"
+      ],
+      "en": "woman",
+      "example": "Hay mujeres a mi lado."
+    },
+    {
+      "es": "el ojo",
+      "alt": [
+        "ojo",
+        "los ojos"
+      ],
+      "en": "eye"
+    },
+    {
+      "es": "el pelo",
+      "alt": [
+        "pelo"
+      ],
+      "en": "hair",
+      "example": "El pelo verde."
+    },
+    {
+      "es": "los anteojos",
+      "alt": [
+        "anteojos"
+      ],
+      "en": "glasses",
+      "example": "Llevas anteojos y tienes aparato."
+    },
+    {
+      "es": "los aparatos",
+      "alt": [
+        "aparato",
+        "el aparato"
+      ],
+      "en": "braces",
+      "example": "Tienes aparato."
+    },
+    {
+      "es": "me llamo",
+      "en": "my name is (I call myself)",
+      "example": "Me llamo Víctor."
+    },
+    {
+      "es": "soy",
+      "en": "I am",
+      "example": "Soy muy, muy, muy guapo."
+    },
+    {
+      "es": "tengo",
+      "en": "I have",
+      "example": "Tengo ojos verdes y pelo castaño."
+    },
+    {
+      "es": "tiene",
+      "en": "s/he has",
+      "example": "Tiene ojos verdes y pelo castaño."
+    },
+    {
+      "es": "hay",
+      "en": "there is / there are",
+      "example": "Hay mujeres a mi lado."
+    },
+    {
+      "es": "no hay",
+      "en": "there isn't / there aren't",
+      "example": "No hay mujeres a tu lado."
+    },
+    {
+      "es": "a mi lado",
+      "en": "at my side",
+      "example": "Hay mujeres a mi lado."
+    },
+    {
+      "es": "llevas",
+      "en": "you wear",
+      "example": "Llevas anteojos."
+    },
+    {
+      "es": "lleva",
+      "en": "s/he wears",
+      "example": "El otro hombre lleva anteojos."
+    },
+    {
+      "es": "para",
+      "en": "for / in order to",
+      "example": "Yo no necesito leer para ir al cine con una mujer."
+    },
+    {
+      "es": "trabajar",
+      "en": "to work",
+      "example": "Yo no necesito trabajar."
+    },
+    {
+      "es": "leer",
+      "en": "to read",
+      "example": "Yo no necesito leer."
+    },
+    {
+      "es": "ayudar",
+      "en": "to help",
+      "example": "En casa no necesito ayudar."
+    },
+    {
+      "es": "en casa",
+      "en": "at home"
+    },
+    {
+      "es": "ir al cine",
+      "en": "to go to the movies",
+      "example": "Para ir al cine con una mujer."
+    },
+    {
+      "es": "necesito",
+      "en": "I need",
+      "example": "Yo no necesito leer."
+    },
+    {
+      "es": "necesario",
+      "en": "necessary",
+      "example": "No es necesario ser gracioso."
+    },
+    {
+      "es": "gracioso",
+      "alt": [
+        "graciosa"
+      ],
+      "display": "gracioso/a",
+      "en": "funny",
+      "example": "No es necesario ser gracioso."
+    },
+    {
+      "es": "verdad",
+      "en": "true",
+      "example": "Sí, es verdad, demasiado guapo."
+    },
+    {
+      "es": "demasiado",
+      "en": "too (much)",
+      "example": "A veces pienso que soy demasiado guapo."
+    },
+    {
+      "es": "a veces",
+      "en": "sometimes",
+      "example": "A veces pienso que soy demasiado guapo."
+    },
+    {
+      "es": "pienso",
+      "en": "I think",
+      "example": "A veces pienso que soy demasiado guapo."
+    },
+    {
+      "es": "piensa",
+      "en": "s/he thinks",
+      "example": "Víctor piensa que anteojos son feos."
+    },
+    {
+      "es": "la personalidad",
+      "alt": [
+        "personalidad"
+      ],
+      "en": "personality",
+      "example": "¿Personalidad? Él no la tiene."
+    },
+    {
+      "es": "él no la tiene",
+      "en": "he doesn't have it",
+      "example": "¿Personalidad? Él no la tiene."
+    },
+    {
+      "es": "pobre amigo",
+      "en": "poor friend",
+      "example": "Pobre amigo, tú no eres alto."
+    },
+    {
+      "es": "dicen",
+      "en": "they say",
+      "example": "Las mujeres dicen que es muy guapo."
+    },
+    {
+      "es": "ve películas",
+      "en": "watches movies",
+      "example": "Víctor ve películas con mujeres, no lee libros."
+    },
+    {
+      "es": "ni… ni",
+      "alt": [
+        "ni ni"
+      ],
+      "en": "neither… nor",
+      "example": "Víctor no es ni generoso ni simpático."
+    },
+    {
+      "es": "el otro hombre",
+      "en": "the other man",
+      "example": "El otro hombre no tiene mucho pelo."
+    },
+    {
+      "es": "la cuenta",
+      "en": "the bill",
+      "example": "Víctor no paga la cuenta."
+    },
+    {
+      "es": "paga",
+      "en": "s/he pays",
+      "example": "¿Quién paga la cuenta en el restaurante?"
+    },
+    {
+      "es": "le da",
+      "en": "gives (to him/her)",
+      "example": "Víctor le da su foto a la mesera."
+    },
+    {
+      "es": "la mesera",
+      "en": "waitress",
+      "example": "La mesera está contenta."
+    },
+    {
+      "es": "la foto",
+      "en": "photo"
+    }
   ]
 }

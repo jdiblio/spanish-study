@@ -1,5 +1,5 @@
 // Gramática: one short explanation per rule, then typed practice built from the class exercises.
-import { $, el, loadJSON, initPage, toast, shuffle, plural } from '../app.js';
+import { $, el, tr, loadJSON, initPage, toast, shuffle, plural } from '../app.js';
 import { getState, save, recordReview } from '../storage.js';
 import { checkAnswer } from '../decks.js';
 import { accentKeys } from '../ui.js';
@@ -33,7 +33,7 @@ function renderList() {
           const g = st.grammar?.[t.id];
           return el('div', { class: 'card resource' },
             el('div', {},
-              el('div', { class: 'resource-title' }, t.title),
+              el('div', { class: 'resource-title' }, t.title, tr(t.titleEn)),
               el('div', { class: 'resource-meta' },
                 el('span', {}, t.source),
                 el('span', {}, plural(t.items.length, 'question')),
@@ -51,7 +51,7 @@ function renderTopic(t) {
   const g = getState().grammar?.[t.id];
   app.replaceChildren(
     el('button', { class: 'btn btn-ghost btn-sm', onClick: renderList }, '← All topics'),
-    el('h1', {}, t.title),
+    el('h1', {}, t.title, tr(t.titleEn)),
     el('p', { class: 'muted small' }, t.source),
     el('div', { class: 'card' },
       el('h2', {}, 'The rule'),
@@ -141,8 +141,9 @@ function summary() {
   st.grammar[t.id] = g;
   save();
 
+  const [head, headEn] = score === 100 ? ['¡Perfecto!', 'Perfect!'] : score >= 80 ? ['¡Muy bien!', 'Very good!'] : ['Sigue así', 'Keep going'];
   app.replaceChildren(
-    el('h1', {}, score === 100 ? '¡Perfecto!' : score >= 80 ? '¡Muy bien!' : 'Keep going'),
+    el('h1', {}, head, tr(headEn)),
     el('div', { class: 'card' },
       el('div', { class: 'stats' },
         el('div', { class: 'stat' }, el('div', { class: 'num' }, `${score}%`), el('div', { class: 'label' }, t.title)),

@@ -3,6 +3,7 @@
     {
       "id": "u-recursos",
       "title": "Recursos de la clase (Español 1-2)",
+      "titleEn": "Class resources (Spanish 1-2)",
       "description": "The class slides, Quizlets, and videos. The class is currently at slide 72.",
       "decks": [],
       "resources": [
@@ -27,7 +28,8 @@
         {
           "type": "youtube",
           "title": "El alfabeto: Learn Spanish alphabet and vowels (BASHO & FRIENDS)",
-          "url": "https://youtu.be/9LT9ltzFJTQ"
+          "url": "https://youtu.be/9LT9ltzFJTQ",
+          "titleEn": "The alphabet"
         },
         {
           "type": "youtube",
@@ -39,15 +41,22 @@
     {
       "id": "u-saludos",
       "title": "Saludos y preguntas",
+      "titleEn": "Greetings and questions",
       "description": "Greetings, class phrases, and the question words. Slides 5–15.",
-      "decks": ["saludos", "preguntas"],
+      "decks": [
+        "saludos",
+        "preguntas"
+      ],
       "resources": []
     },
     {
       "id": "u-gramatica",
       "title": "Reglas 1–5: género, artículos, concordancia, posesivos y objeto directo",
+      "titleEn": "Rules 1–5: gender, articles, agreement, possessives and direct object",
       "description": "The five rules from slides 16–21: noun gender and plurals, el/la/los/las, noun-adjective agreement, mi/tu/su, and lo/la/los/las. Practice them on the Gramática page.",
-      "decks": ["gramatica-vocab"],
+      "decks": [
+        "gramatica-vocab"
+      ],
       "resources": [
         {
           "type": "link",
@@ -59,22 +68,28 @@
           "type": "wooly",
           "title": "Señor Wooly: No lo tengo",
           "url": "https://student.senorwooly.com/stories/no-lo-tengo",
-          "note": "Direct object pronouns in action (Rule 5): 'No, no lo tengo' = No, I don't have it."
+          "note": "Direct object pronouns in action (Rule 5): 'No, no lo tengo' = No, I don't have it.",
+          "titleEn": "I don't have it"
         }
       ]
     },
     {
       "id": "u-guapo",
       "title": "Guapo y las descripciones: ¿Cómo es?",
+      "titleEn": "Guapo and descriptions: what is he/she like?",
       "description": "Describing people: the Señor Wooly song Guapo, the story of Víctor, and the descriptive adjectives from slides 24 and 66.",
-      "decks": ["descripciones", "guapo"],
+      "decks": [
+        "descripciones",
+        "guapo"
+      ],
       "resources": [
         {
           "type": "wooly",
           "title": "Señor Wooly: Guapo",
           "url": "https://student.senorwooly.com/stories/guapo",
           "deck": "guapo",
-          "note": "Focus questions: ¿Quién es? ¿Cómo es? ¿De dónde es? ¿Qué hace? ¿En qué trabaja?"
+          "note": "Focus questions: ¿Quién es? ¿Cómo es? ¿De dónde es? ¿Qué hace? ¿En qué trabaja?",
+          "titleEn": "Good-looking"
         },
         {
           "type": "reading",
@@ -105,27 +120,35 @@
             "¿Qué le da Víctor a la mesera? (¿Le da dinero o le da su foto?)",
             "¿Cómo está la mesera cuando Víctor le da su foto? (¿Está contenta o está triste?) ¿Por qué?",
             "En tu opinión, ¿es Víctor arrogante o humilde? ¿Es generoso o tacaño? ¿Es simpático o antipático?"
-          ]
+          ],
+          "titleEn": "Reading: the story of Víctor"
         },
         {
           "type": "assignment",
           "title": "¿Cómo es? Drawing project (slide 67)",
-          "note": "Draw the girl from the song (as you imagine her) or make up your own character. Show ¿Cómo es? (at least 4 physical things and 2 personality things), ¿De dónde es? (nationality), ¿Dónde vive ella?, and ¿En qué trabaja ella? / ¿Qué hace? Include at least 5 complete sentences that answer those questions. Example: Ella es estudiante. Así que = so."
+          "note": "Draw the girl from the song (as you imagine her) or make up your own character. Show ¿Cómo es? (at least 4 physical things and 2 personality things), ¿De dónde es? (nationality), ¿Dónde vive ella?, and ¿En qué trabaja ella? / ¿Qué hace? Include at least 5 complete sentences that answer those questions. Example: Ella es estudiante. Así que = so.",
+          "titleEn": "What is she like? Drawing project"
         }
       ]
     },
     {
       "id": "u-famosos",
       "title": "¿Quién es? Profesiones y famosos",
+      "titleEn": "Who is it? Professions and famous people",
       "description": "Professions (slide 30) and the celebrity description practice (slides 33–60): ¿Quién es? ¿Qué es? ¿Cómo es? ¿De dónde es? ¿En qué trabaja?",
-      "decks": ["profesiones"],
+      "decks": [
+        "profesiones"
+      ],
       "resources": []
     },
     {
       "id": "u-lecturas",
       "title": "Lecturas: La televisión es muy importante y Austin Powers",
+      "titleEn": "Readings: Television is very important, and Austin Powers",
       "description": "Two readings from slides 51–65 and the Spanish Now! Unit One worksheets.",
-      "decks": ["television"],
+      "decks": [
+        "television"
+      ],
       "resources": [
         {
           "type": "reading",
@@ -143,7 +166,8 @@
             "¿Qué quiere hacer Pepita? ¿Por qué?",
             "¿Cuál es el programa favorito de Pepita?",
             "¿Qué quiere hacer Pepita ahora (now)?"
-          ]
+          ],
+          "titleEn": "Reading: Television is very important (questions)"
         },
         {
           "type": "reading",
@@ -160,7 +184,8 @@
           "questions": [
             "¿En qué trabaja Austin?",
             "¿Por qué está contento?"
-          ]
+          ],
+          "titleEn": "Reading: Austin Powers"
         },
         {
           "type": "assignment",
@@ -172,21 +197,31 @@
     {
       "id": "u-todo-sobre-mi",
       "title": "Todo sobre mí",
+      "titleEn": "All about me",
       "description": "The 'Todo (everything) sobre (about) mí (me)' worksheet: name, birthday and months, where you are from, your family, what you are like, what you like to do, and your happy place.",
-      "decks": ["tsm-frases", "meses", "familia", "como-eres", "actividades", "lugares"],
+      "decks": [
+        "tsm-frases",
+        "meses",
+        "familia",
+        "como-eres",
+        "actividades",
+        "lugares"
+      ],
       "resources": [
         {
           "type": "assignment",
           "title": "Todo sobre mí (worksheet, Google Doc)",
           "url": "https://docs.google.com/document/d/1VXhRnMiE42-WlRmcWv4oa1VeVasvr6MQ5YYFpK_0i2A/edit?usp=sharing",
           "embed": "https://docs.google.com/document/d/1VXhRnMiE42-WlRmcWv4oa1VeVasvr6MQ5YYFpK_0i2A/preview",
-          "note": "Fill in the nine sections. Write four things you like to do starting with 'Me gusta…'."
+          "note": "Fill in the nine sections. Write four things you like to do starting with 'Me gusta…'.",
+          "titleEn": "All about me"
         }
       ]
     },
     {
       "id": "u-canciones",
       "title": "Más canciones de Señor Wooly",
+      "titleEn": "More Señor Wooly songs",
       "description": "Songs assigned in class that don't have slides yet.",
       "decks": [],
       "resources": [
@@ -194,7 +229,8 @@
           "type": "wooly",
           "title": "Señor Wooly: Flores",
           "url": "https://student.senorwooly.com/stories/flores",
-          "note": "No class vocabulary for this song yet. Send the worksheet or lyrics sheet when you get it."
+          "note": "No class vocabulary for this song yet. Send the worksheet or lyrics sheet when you get it.",
+          "titleEn": "Flowers"
         }
       ]
     }

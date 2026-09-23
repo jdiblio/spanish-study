@@ -1,5 +1,5 @@
 // Hoy (Today): what to study now, what is due in class, one study tip.
-import { $, el, loadJSON, initPage, daysUntil, formatDate, relativeDays, plural } from '../app.js';
+import { $, el, tr, loadJSON, initPage, daysUntil, formatDate, relativeDays, plural } from '../app.js';
 import { streak, studiedToday } from '../storage.js';
 import { loadDecks, buildReviewQueue } from '../decks.js';
 import { TYPES } from '../resources.js';
@@ -34,7 +34,7 @@ async function main() {
   const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
   const tip = TIPS[dayOfYear % TIPS.length];
   const hour = today.getHours();
-  const greeting = hour < 12 ? 'Buenos días' : hour < 19 ? 'Buenas tardes' : 'Buenas noches';
+  const [greeting, greetingEn] = hour < 12 ? ['Buenos días', 'Good morning'] : hour < 19 ? ['Buenas tardes', 'Good afternoon'] : ['Buenas noches', 'Good evening'];
 
   const upcoming = [];
   for (const u of unitsData.units || []) {
@@ -54,7 +54,7 @@ async function main() {
   app.replaceChildren(
     el('div', { class: 'hero' },
       el('div', {},
-        el('h1', {}, `${greeting} 👋`),
+        el('h1', {}, `${greeting} 👋`, tr(greetingEn)),
         el('p', { class: 'muted' }, new Intl.DateTimeFormat('en', { weekday: 'long', month: 'long', day: 'numeric' }).format(today))),
       el('span', { class: `chip streak${days ? ' amber' : ''}` },
         `🔥 ${plural(days, 'day')} streak${done || !days ? '' : ' · study today to keep it'}`)

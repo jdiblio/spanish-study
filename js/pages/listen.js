@@ -1,5 +1,5 @@
 // Escuchar y ver: songs and videos by unit, each with its vocabulary deck.
-import { $, el, loadJSON, initPage } from '../app.js';
+import { $, el, tr, loadJSON, initPage } from '../app.js';
 import { resourceCard, MEDIA_TYPES } from '../resources.js';
 
 initPage('listen');
@@ -28,7 +28,7 @@ async function main() {
         el('li', {}, 'A few days later, do it a third time. You will catch much more.'))),
     ...(sections.length
       ? sections.map(({ unit, media }) => el('section', { class: 'unit mt', id: `unit-${unit.id}` },
-          el('h2', {}, unit.title),
+          el('h2', {}, unit.title, tr(unit.titleEn)),
           el('div', { class: 'grid' }, media.map(resourceCard))))
       : [el('div', { class: 'card empty mt' }, 'No songs or videos yet.')])
   );

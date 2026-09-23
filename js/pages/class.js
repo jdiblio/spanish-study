@@ -1,5 +1,5 @@
 // Clase: the raw class materials by unit.
-import { $, el, loadJSON, initPage } from '../app.js';
+import { $, el, tr, loadJSON, initPage } from '../app.js';
 import { resourceCard } from '../resources.js';
 
 initPage('class');
@@ -33,7 +33,7 @@ function unitSection(u) {
   const resources = [...(u.resources || [])].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
   return el('section', { class: 'unit mt', id: `unit-${u.id}` },
     el('div', { class: 'unit-head' },
-      el('h2', {}, u.title),
+      el('h2', {}, u.title, tr(u.titleEn)),
       (u.decks || []).map((d) => el('a', { class: 'btn btn-sm', href: `vocab.html?deck=${encodeURIComponent(d)}` }, '🃏 Practice vocabulary'))),
     u.description ? el('p', { class: 'muted' }, u.description) : null,
     resources.length

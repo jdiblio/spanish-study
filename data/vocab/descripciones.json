@@ -2,86 +2,572 @@
   "id": "descripciones",
   "unit": "u-guapo",
   "title": "Descripciones: ¿Cómo es?",
+  "titleEn": "Descriptions: what is he/she like?",
   "source": "Slides 24 and 66, plus words glossed on slides 26–65",
   "items": [
-    { "es": "guapo", "alt": ["guapa"], "display": "guapo(a)", "en": "good-looking", "example": "Víctor es muy guapo." },
-    { "es": "feo", "alt": ["fea"], "display": "feo(a)", "en": "unattractive / ugly", "example": "Tú no eres guapo, eres feo." },
-    { "es": "alto", "alt": ["alta"], "display": "alto(a)", "en": "tall (height)", "example": "Víctor es alto." },
-    { "es": "bajo", "alt": ["baja"], "display": "bajo(a)", "en": "short (height)", "example": "El Doctor Malo es bajo y feo." },
-    { "es": "delgado", "alt": ["delgada"], "display": "delgado(a)", "en": "slender / slim / thin", "example": "Es delgado." },
-    { "es": "flaco", "alt": ["flaca"], "display": "flaco(a)", "en": "skinny" },
-    { "es": "gordo", "alt": ["gorda"], "display": "gordo(a)", "en": "fat", "example": "Kit es simpático, negro y gordo." },
-    { "es": "simpático", "alt": ["simpática"], "display": "simpático(a)", "en": "nice", "example": "No es necesario ser simpático." },
-    { "es": "antipático", "alt": ["antipática"], "display": "antipático(a)", "en": "mean", "example": "El Doctor Malo es muy antipático." },
-    { "es": "amable", "en": "nice / friendly" },
-    { "es": "listo", "alt": ["lista"], "display": "listo(a)", "en": "smart" },
-    { "es": "tonto", "alt": ["tonta"], "display": "tonto(a)", "en": "dumb / silly" },
-    { "es": "inteligente", "en": "intelligent" },
-    { "es": "intelectual", "en": "intellectual" },
-    { "es": "divertido", "alt": ["divertida"], "display": "divertido(a)", "en": "fun", "example": "Austin es bajo, blanco, divertido y muy guapo." },
-    { "es": "aburrido", "alt": ["aburrida"], "display": "aburrido(a)", "en": "boring" },
-    { "es": "interesante", "en": "interesting", "example": "¡Es el hombre más interesante del mundo!" },
-    { "es": "arrogante", "en": "arrogant", "example": "El doctor es arrogante. No es humilde." },
-    { "es": "humilde", "en": "humble" },
-    { "es": "rico", "alt": ["rica"], "display": "rico(a)", "en": "rich", "example": "¡Austin es rico!" },
-    { "es": "pobre", "en": "poor", "example": "Pobre amigo, tú no eres alto." },
-    { "es": "generoso", "alt": ["generosa"], "display": "generoso(a)", "en": "generous", "example": "Víctor no es ni generoso ni simpático." },
-    { "es": "tacaño", "alt": ["tacaña"], "display": "tacaño(a)", "en": "stingy / cheap" },
-    { "es": "viejo", "alt": ["vieja"], "display": "viejo(a)", "en": "old" },
-    { "es": "joven", "en": "young" },
-    { "es": "de media edad", "en": "middle-aged" },
-    { "es": "fuerte", "en": "strong" },
-    { "es": "débil", "en": "weak" },
-    { "es": "atlético", "alt": ["atlética"], "display": "atlético(a)", "en": "athletic" },
-    { "es": "torpe", "en": "clumsy" },
-    { "es": "estudioso", "alt": ["estudiosa"], "display": "estudioso(a)", "en": "studious" },
-    { "es": "serio", "alt": ["seria"], "display": "serio(a)", "en": "serious" },
-    { "es": "educado", "alt": ["educada"], "display": "educado(a)", "en": "well-mannered" },
-    { "es": "mal educado", "alt": ["mal educada"], "display": "mal educado(a)", "en": "rude" },
-    { "es": "malo", "alt": ["mala"], "display": "malo(a)", "en": "bad / evil", "example": "Su enemigo se llama Doctor Malo." },
-    { "es": "bueno", "alt": ["buena"], "display": "bueno(a)", "en": "good", "example": "Es un perro muy bueno." },
-    { "es": "feliz", "en": "happy" },
-    { "es": "contento", "alt": ["contenta"], "display": "contento(a)", "en": "happy (feeling)", "example": "Austin está contento." },
-    { "es": "enojado", "alt": ["enojada"], "display": "enojado(a)", "en": "angry" },
-    { "es": "triste", "en": "sad" },
-    { "es": "hermoso", "alt": ["hermosa"], "display": "hermoso(a)", "en": "beautiful" },
-    { "es": "lindo", "alt": ["linda"], "display": "lindo(a)", "en": "lovely" },
-    { "es": "talentoso", "alt": ["talentosa"], "display": "talentoso(a)", "en": "talented" },
-    { "es": "sin talento", "en": "without talent" },
-    { "es": "famoso", "alt": ["famosa"], "display": "famoso(a)", "en": "famous" },
-    { "es": "desconocido", "alt": ["desconocida"], "display": "desconocido(a)", "en": "unknown" },
-    { "es": "típico", "alt": ["típica"], "display": "típico(a)", "en": "typical", "example": "¿Es una persona típica?" },
-    { "es": "peludo", "alt": ["peluda"], "display": "peludo(a)", "en": "hairy", "example": "¡Es peludo!" },
-    { "es": "calvo", "alt": ["calva"], "display": "calvo(a)", "en": "bald" },
-    { "es": "el pelo", "en": "hair", "example": "Víctor tiene pelo castaño." },
-    { "es": "rubio", "alt": ["rubia"], "display": "rubio(a)", "en": "blonde" },
-    { "es": "moreno", "alt": ["morena"], "display": "moreno(a)", "en": "dark (hair / skin), brunette" },
-    { "es": "castaño", "alt": ["castaña"], "display": "castaño(a)", "en": "brown (hair)", "example": "Tengo ojos verdes y pelo castaño." },
-    { "es": "canoso", "alt": ["canosa"], "display": "canoso(a)", "en": "grey (hair)", "example": "Su pelo es canoso." },
-    { "es": "pelirrojo", "alt": ["pelirroja"], "display": "pelirrojo(a)", "en": "red-headed" },
-    { "es": "liso", "alt": ["lisa"], "display": "liso(a)", "en": "straight (hair)", "example": "Víctor tiene pelo liso, castaño y un poco largo." },
-    { "es": "largo", "alt": ["larga"], "display": "largo(a)", "en": "long (length)" },
-    { "es": "corto", "alt": ["corta"], "display": "corto(a)", "en": "short (length)", "example": "¿Tiene pelo largo o corto?" },
-    { "es": "los ojos", "alt": ["el ojo"], "en": "eyes", "example": "Víctor tiene ojos verdes." },
-    { "es": "azul", "alt": ["azules"], "display": "azul(es)", "en": "blue" },
-    { "es": "verde", "alt": ["verdes"], "display": "verde(s)", "en": "green" },
-    { "es": "blanco", "alt": ["blanca"], "display": "blanco(a)", "en": "white" },
-    { "es": "negro", "alt": ["negra"], "display": "negro(a)", "en": "black" },
-    { "es": "mestizo", "alt": ["mestiza", "mulato"], "display": "mestizo(a) / mulato(a)", "en": "mixed-race" },
-    { "es": "morocho", "alt": ["morocha"], "display": "morocho(a)", "en": "dark complexioned" },
-    { "es": "los anteojos", "alt": ["las gafas"], "display": "los anteojos / las gafas", "en": "glasses", "example": "Lleva anteojos." },
-    { "es": "la barba", "en": "beard", "example": "Tiene barba." },
-    { "es": "los dientes", "en": "teeth", "example": "Tiene mucho pelo y muchos dientes malos." },
-    { "es": "muy", "en": "very", "example": "Soy muy, muy guapo." },
-    { "es": "mucho", "alt": ["mucha"], "display": "mucho(a)", "en": "a lot / much", "example": "Tiene mucho dinero." },
-    { "es": "poco", "alt": ["poca"], "display": "poco(a)", "en": "a little bit / few", "example": "¿Es muy guapo o es un poco guapo?" },
-    { "es": "grande", "en": "big / large" },
-    { "es": "pequeño", "alt": ["pequeña"], "display": "pequeño(a)", "en": "small / little", "example": "El otro hombre tiene ojos pequeños." },
-    { "es": "el hombre", "en": "man", "example": "Hay un hombre. Se llama Víctor." },
-    { "es": "la mujer", "en": "woman", "example": "Víctor tiene mujeres a su lado." },
-    { "es": "él es", "en": "he is" },
-    { "es": "ella es", "en": "she is" },
-    { "es": "el dinero", "en": "money", "example": "También tiene un carro bueno y mucho dinero." },
-    { "es": "las mascotas", "en": "pets", "example": "Tiene tres mascotas: un perro y dos gatos." }
+    {
+      "es": "guapo",
+      "alt": [
+        "guapa"
+      ],
+      "display": "guapo(a)",
+      "en": "good-looking",
+      "example": "Víctor es muy guapo."
+    },
+    {
+      "es": "feo",
+      "alt": [
+        "fea"
+      ],
+      "display": "feo(a)",
+      "en": "unattractive / ugly",
+      "example": "Tú no eres guapo, eres feo."
+    },
+    {
+      "es": "alto",
+      "alt": [
+        "alta"
+      ],
+      "display": "alto(a)",
+      "en": "tall (height)",
+      "example": "Víctor es alto."
+    },
+    {
+      "es": "bajo",
+      "alt": [
+        "baja"
+      ],
+      "display": "bajo(a)",
+      "en": "short (height)",
+      "example": "El Doctor Malo es bajo y feo."
+    },
+    {
+      "es": "delgado",
+      "alt": [
+        "delgada"
+      ],
+      "display": "delgado(a)",
+      "en": "slender / slim / thin",
+      "example": "Es delgado."
+    },
+    {
+      "es": "flaco",
+      "alt": [
+        "flaca"
+      ],
+      "display": "flaco(a)",
+      "en": "skinny"
+    },
+    {
+      "es": "gordo",
+      "alt": [
+        "gorda"
+      ],
+      "display": "gordo(a)",
+      "en": "fat",
+      "example": "Kit es simpático, negro y gordo."
+    },
+    {
+      "es": "simpático",
+      "alt": [
+        "simpática"
+      ],
+      "display": "simpático(a)",
+      "en": "nice",
+      "example": "No es necesario ser simpático."
+    },
+    {
+      "es": "antipático",
+      "alt": [
+        "antipática"
+      ],
+      "display": "antipático(a)",
+      "en": "mean",
+      "example": "El Doctor Malo es muy antipático."
+    },
+    {
+      "es": "amable",
+      "en": "nice / friendly"
+    },
+    {
+      "es": "listo",
+      "alt": [
+        "lista"
+      ],
+      "display": "listo(a)",
+      "en": "smart"
+    },
+    {
+      "es": "tonto",
+      "alt": [
+        "tonta"
+      ],
+      "display": "tonto(a)",
+      "en": "dumb / silly"
+    },
+    {
+      "es": "inteligente",
+      "en": "intelligent"
+    },
+    {
+      "es": "intelectual",
+      "en": "intellectual"
+    },
+    {
+      "es": "divertido",
+      "alt": [
+        "divertida"
+      ],
+      "display": "divertido(a)",
+      "en": "fun",
+      "example": "Austin es bajo, blanco, divertido y muy guapo."
+    },
+    {
+      "es": "aburrido",
+      "alt": [
+        "aburrida"
+      ],
+      "display": "aburrido(a)",
+      "en": "boring"
+    },
+    {
+      "es": "interesante",
+      "en": "interesting",
+      "example": "¡Es el hombre más interesante del mundo!"
+    },
+    {
+      "es": "arrogante",
+      "en": "arrogant",
+      "example": "El doctor es arrogante. No es humilde."
+    },
+    {
+      "es": "humilde",
+      "en": "humble"
+    },
+    {
+      "es": "rico",
+      "alt": [
+        "rica"
+      ],
+      "display": "rico(a)",
+      "en": "rich",
+      "example": "¡Austin es rico!"
+    },
+    {
+      "es": "pobre",
+      "en": "poor",
+      "example": "Pobre amigo, tú no eres alto."
+    },
+    {
+      "es": "generoso",
+      "alt": [
+        "generosa"
+      ],
+      "display": "generoso(a)",
+      "en": "generous",
+      "example": "Víctor no es ni generoso ni simpático."
+    },
+    {
+      "es": "tacaño",
+      "alt": [
+        "tacaña"
+      ],
+      "display": "tacaño(a)",
+      "en": "stingy / cheap"
+    },
+    {
+      "es": "viejo",
+      "alt": [
+        "vieja"
+      ],
+      "display": "viejo(a)",
+      "en": "old"
+    },
+    {
+      "es": "joven",
+      "en": "young"
+    },
+    {
+      "es": "de media edad",
+      "en": "middle-aged"
+    },
+    {
+      "es": "fuerte",
+      "en": "strong"
+    },
+    {
+      "es": "débil",
+      "en": "weak"
+    },
+    {
+      "es": "atlético",
+      "alt": [
+        "atlética"
+      ],
+      "display": "atlético(a)",
+      "en": "athletic"
+    },
+    {
+      "es": "torpe",
+      "en": "clumsy"
+    },
+    {
+      "es": "estudioso",
+      "alt": [
+        "estudiosa"
+      ],
+      "display": "estudioso(a)",
+      "en": "studious"
+    },
+    {
+      "es": "serio",
+      "alt": [
+        "seria"
+      ],
+      "display": "serio(a)",
+      "en": "serious"
+    },
+    {
+      "es": "educado",
+      "alt": [
+        "educada"
+      ],
+      "display": "educado(a)",
+      "en": "well-mannered"
+    },
+    {
+      "es": "mal educado",
+      "alt": [
+        "mal educada"
+      ],
+      "display": "mal educado(a)",
+      "en": "rude"
+    },
+    {
+      "es": "malo",
+      "alt": [
+        "mala"
+      ],
+      "display": "malo(a)",
+      "en": "bad / evil",
+      "example": "Su enemigo se llama Doctor Malo."
+    },
+    {
+      "es": "bueno",
+      "alt": [
+        "buena"
+      ],
+      "display": "bueno(a)",
+      "en": "good",
+      "example": "Es un perro muy bueno."
+    },
+    {
+      "es": "feliz",
+      "en": "happy"
+    },
+    {
+      "es": "contento",
+      "alt": [
+        "contenta"
+      ],
+      "display": "contento(a)",
+      "en": "happy (feeling)",
+      "example": "Austin está contento."
+    },
+    {
+      "es": "enojado",
+      "alt": [
+        "enojada"
+      ],
+      "display": "enojado(a)",
+      "en": "angry"
+    },
+    {
+      "es": "triste",
+      "en": "sad"
+    },
+    {
+      "es": "hermoso",
+      "alt": [
+        "hermosa"
+      ],
+      "display": "hermoso(a)",
+      "en": "beautiful"
+    },
+    {
+      "es": "lindo",
+      "alt": [
+        "linda"
+      ],
+      "display": "lindo(a)",
+      "en": "lovely"
+    },
+    {
+      "es": "talentoso",
+      "alt": [
+        "talentosa"
+      ],
+      "display": "talentoso(a)",
+      "en": "talented"
+    },
+    {
+      "es": "sin talento",
+      "en": "without talent"
+    },
+    {
+      "es": "famoso",
+      "alt": [
+        "famosa"
+      ],
+      "display": "famoso(a)",
+      "en": "famous"
+    },
+    {
+      "es": "desconocido",
+      "alt": [
+        "desconocida"
+      ],
+      "display": "desconocido(a)",
+      "en": "unknown"
+    },
+    {
+      "es": "típico",
+      "alt": [
+        "típica"
+      ],
+      "display": "típico(a)",
+      "en": "typical",
+      "example": "¿Es una persona típica?"
+    },
+    {
+      "es": "peludo",
+      "alt": [
+        "peluda"
+      ],
+      "display": "peludo(a)",
+      "en": "hairy",
+      "example": "¡Es peludo!"
+    },
+    {
+      "es": "calvo",
+      "alt": [
+        "calva"
+      ],
+      "display": "calvo(a)",
+      "en": "bald"
+    },
+    {
+      "es": "el pelo",
+      "en": "hair",
+      "example": "Víctor tiene pelo castaño."
+    },
+    {
+      "es": "rubio",
+      "alt": [
+        "rubia"
+      ],
+      "display": "rubio(a)",
+      "en": "blonde"
+    },
+    {
+      "es": "moreno",
+      "alt": [
+        "morena"
+      ],
+      "display": "moreno(a)",
+      "en": "dark (hair / skin), brunette"
+    },
+    {
+      "es": "castaño",
+      "alt": [
+        "castaña"
+      ],
+      "display": "castaño(a)",
+      "en": "brown (hair)",
+      "example": "Tengo ojos verdes y pelo castaño."
+    },
+    {
+      "es": "canoso",
+      "alt": [
+        "canosa"
+      ],
+      "display": "canoso(a)",
+      "en": "grey (hair)",
+      "example": "Su pelo es canoso."
+    },
+    {
+      "es": "pelirrojo",
+      "alt": [
+        "pelirroja"
+      ],
+      "display": "pelirrojo(a)",
+      "en": "red-headed"
+    },
+    {
+      "es": "liso",
+      "alt": [
+        "lisa"
+      ],
+      "display": "liso(a)",
+      "en": "straight (hair)",
+      "example": "Víctor tiene pelo liso, castaño y un poco largo."
+    },
+    {
+      "es": "largo",
+      "alt": [
+        "larga"
+      ],
+      "display": "largo(a)",
+      "en": "long (length)"
+    },
+    {
+      "es": "corto",
+      "alt": [
+        "corta"
+      ],
+      "display": "corto(a)",
+      "en": "short (length)",
+      "example": "¿Tiene pelo largo o corto?"
+    },
+    {
+      "es": "los ojos",
+      "alt": [
+        "el ojo"
+      ],
+      "en": "eyes",
+      "example": "Víctor tiene ojos verdes."
+    },
+    {
+      "es": "azul",
+      "alt": [
+        "azules"
+      ],
+      "display": "azul(es)",
+      "en": "blue"
+    },
+    {
+      "es": "verde",
+      "alt": [
+        "verdes"
+      ],
+      "display": "verde(s)",
+      "en": "green"
+    },
+    {
+      "es": "blanco",
+      "alt": [
+        "blanca"
+      ],
+      "display": "blanco(a)",
+      "en": "white"
+    },
+    {
+      "es": "negro",
+      "alt": [
+        "negra"
+      ],
+      "display": "negro(a)",
+      "en": "black"
+    },
+    {
+      "es": "mestizo",
+      "alt": [
+        "mestiza",
+        "mulato"
+      ],
+      "display": "mestizo(a) / mulato(a)",
+      "en": "mixed-race"
+    },
+    {
+      "es": "morocho",
+      "alt": [
+        "morocha"
+      ],
+      "display": "morocho(a)",
+      "en": "dark complexioned"
+    },
+    {
+      "es": "los anteojos",
+      "alt": [
+        "las gafas"
+      ],
+      "display": "los anteojos / las gafas",
+      "en": "glasses",
+      "example": "Lleva anteojos."
+    },
+    {
+      "es": "la barba",
+      "en": "beard",
+      "example": "Tiene barba."
+    },
+    {
+      "es": "los dientes",
+      "en": "teeth",
+      "example": "Tiene mucho pelo y muchos dientes malos."
+    },
+    {
+      "es": "muy",
+      "en": "very",
+      "example": "Soy muy, muy guapo."
+    },
+    {
+      "es": "mucho",
+      "alt": [
+        "mucha"
+      ],
+      "display": "mucho(a)",
+      "en": "a lot / much",
+      "example": "Tiene mucho dinero."
+    },
+    {
+      "es": "poco",
+      "alt": [
+        "poca"
+      ],
+      "display": "poco(a)",
+      "en": "a little bit / few",
+      "example": "¿Es muy guapo o es un poco guapo?"
+    },
+    {
+      "es": "grande",
+      "en": "big / large"
+    },
+    {
+      "es": "pequeño",
+      "alt": [
+        "pequeña"
+      ],
+      "display": "pequeño(a)",
+      "en": "small / little",
+      "example": "El otro hombre tiene ojos pequeños."
+    },
+    {
+      "es": "el hombre",
+      "en": "man",
+      "example": "Hay un hombre. Se llama Víctor."
+    },
+    {
+      "es": "la mujer",
+      "en": "woman",
+      "example": "Víctor tiene mujeres a su lado."
+    },
+    {
+      "es": "él es",
+      "en": "he is"
+    },
+    {
+      "es": "ella es",
+      "en": "she is"
+    },
+    {
+      "es": "el dinero",
+      "en": "money",
+      "example": "También tiene un carro bueno y mucho dinero."
+    },
+    {
+      "es": "las mascotas",
+      "en": "pets",
+      "example": "Tiene tres mascotas: un perro y dos gatos."
+    }
   ]
 }

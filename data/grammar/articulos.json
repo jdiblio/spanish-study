@@ -1,6 +1,7 @@
 {
   "id": "articulos",
   "title": "Reglas 1 y 2: género y los artículos el, la, los, las",
+  "titleEn": "Rules 1 and 2: gender and the articles el, la, los, las",
   "source": "Slides 16–17",
   "summary": "Nouns have a gender. 'The' has four forms that must match the noun.",
   "instruction": "Which article agrees with the noun?",
@@ -11,27 +12,87 @@
     "el = the (masculine, singular) · la = the (feminine, singular) · los = the (masculine, plural) · las = the (feminine, plural)"
   ],
   "examples": [
-    { "es": "El chico", "en": "the boy" },
-    { "es": "La chica", "en": "the girl" },
-    { "es": "Los libros", "en": "the books" },
-    { "es": "Las mesas", "en": "the tables" }
+    {
+      "es": "El chico",
+      "en": "the boy"
+    },
+    {
+      "es": "La chica",
+      "en": "the girl"
+    },
+    {
+      "es": "Los libros",
+      "en": "the books"
+    },
+    {
+      "es": "Las mesas",
+      "en": "the tables"
+    }
   ],
   "items": [
-    { "prompt": "The man = ___ hombre", "answer": "el" },
-    { "prompt": "The books = ___ libros", "answer": "los" },
-    { "prompt": "The house = ___ casa", "answer": "la" },
-    { "prompt": "The fruits = ___ frutas", "answer": "las" },
-    { "prompt": "The instrument = ___ instrumento", "answer": "el" },
-    { "prompt": "The boys = ___ chicos", "answer": "los" },
-    { "prompt": "The dog = ___ perro", "answer": "el" },
-    { "prompt": "The tables = ___ mesas", "answer": "las" },
-    { "prompt": "The boy = ___ chico", "answer": "el" },
-    { "prompt": "The girl = ___ chica", "answer": "la" },
-    { "prompt": "The car = ___ carro", "answer": "el" },
-    { "prompt": "The calculator = ___ calculadora", "answer": "la" },
-    { "prompt": "The cats = ___ gatos", "answer": "los" },
-    { "prompt": "The shirts = ___ camisas", "answer": "las" },
-    { "prompt": "The notebook = ___ cuaderno", "answer": "el" },
-    { "prompt": "The mountains = ___ montañas", "answer": "las" }
+    {
+      "prompt": "The man = ___ hombre",
+      "answer": "el"
+    },
+    {
+      "prompt": "The books = ___ libros",
+      "answer": "los"
+    },
+    {
+      "prompt": "The house = ___ casa",
+      "answer": "la"
+    },
+    {
+      "prompt": "The fruits = ___ frutas",
+      "answer": "las"
+    },
+    {
+      "prompt": "The instrument = ___ instrumento",
+      "answer": "el"
+    },
+    {
+      "prompt": "The boys = ___ chicos",
+      "answer": "los"
+    },
+    {
+      "prompt": "The dog = ___ perro",
+      "answer": "el"
+    },
+    {
+      "prompt": "The tables = ___ mesas",
+      "answer": "las"
+    },
+    {
+      "prompt": "The boy = ___ chico",
+      "answer": "el"
+    },
+    {
+      "prompt": "The girl = ___ chica",
+      "answer": "la"
+    },
+    {
+      "prompt": "The car = ___ carro",
+      "answer": "el"
+    },
+    {
+      "prompt": "The calculator = ___ calculadora",
+      "answer": "la"
+    },
+    {
+      "prompt": "The cats = ___ gatos",
+      "answer": "los"
+    },
+    {
+      "prompt": "The shirts = ___ camisas",
+      "answer": "las"
+    },
+    {
+      "prompt": "The notebook = ___ cuaderno",
+      "answer": "el"
+    },
+    {
+      "prompt": "The mountains = ___ montañas",
+      "answer": "las"
+    }
   ]
 }
