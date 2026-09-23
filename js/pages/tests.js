@@ -204,7 +204,7 @@ function matchQuestion(q, n, wrap) {
       rows.forEach((row) => {
         row.sel.disabled = true;
         const good = row.sel.value === row.p.r;
-        row.row.append(el('span', { class: `checkmark ${good ? 'ok' : 'bad'}` }, good ? '✓' : '✗'), good ? null : el('span', { class: 'muted small', lang: 'es' }, `→ ${row.p.r}`));
+        row.row.append(...kids(el('span', { class: `checkmark ${good ? 'ok' : 'bad'}` }, good ? '✓' : '✗'), good ? null : el('span', { class: 'muted small', lang: 'es' }, `→ ${row.p.r}`)));
       });
     },
   };

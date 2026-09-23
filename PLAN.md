@@ -97,7 +97,13 @@ Spanish Study Website/
   with typed practice (the Gramática page is live). Placeholder deck removed.
 - **Rule:** study content comes only from class materials. Nothing invented.
 - Class is at slide 72. Do not use later slides until Jeffrey says so.
-- Next: verbs (when the class gets there), mixed review, more songs as they are assigned.
+- **2026-09-22:** Every Spanish title/label now has a small gray English translation next to it
+  (Jeffrey's request; keep doing this for new screens). The Repaso page is a practice-test engine
+  (multiple choice, true/false, fill-in, translation, matching, self-graded writing; whole-test
+  submit with corrections and best score). `data/tests.json` is empty until Jeffrey sends the
+  class practice test; then build 3 versions with the same sections and question types, using
+  only slides 1–72, and register them there (`data/tests/<id>.json`).
+- Next: the three practice-test versions, verbs (when the class gets there), more songs as assigned.
 
 ## Phases
 
